@@ -1,0 +1,1582 @@
+﻿Log file open, 09/26/25 15:21:52
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=29028)
+LogWindows: Enabling Tpause support
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: SMMScene
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Control listening on port 37413
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.6-CL-44394996"
+LogCsvProfiler: Display: Metadata set : engineversion="5.6.1-44394996+++UE5+Release-5.6"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (24H2) [10.0.26100.4652] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|13th Gen Intel(R) Core(TM) i9-13900H"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" "C:\Users\joshu\Documents\Unreal Projects\SMMGEI\SMMScene\SMMScene.uproject" -AUTH_LOGIN=unused -AUTH_PASSWORD=aae3b676f9d540e881d6d3fadbf3e2d4 -AUTH_TYPE=exchangecode -epicapp=UE_5.6 -epicenv=Prod -EpicPortal -epicusername=RazerWind377 -epicuserid=2b87d7104ad54de7baad1be6a5d9997a -epiclocale=en -epicsandboxid=ue""
+LogCsvProfiler: Display: Metadata set : loginid="db90dc044c82298342dd67b17c400577"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.288755
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-478AB3A24FDAEE12B00E9AB0FE00D243
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Pre-Initializing Audio Device Manager...
+LogAudio: Display: AudioInfo: 'OPUS' Registered
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogAudio: Display: AudioInfo: 'OGG' Registered
+LogAudio: Display: AudioInfo: 'ADPCM' Registered
+LogAudio: Display: AudioInfo: 'PCM' Registered
+LogAudio: Display: AudioInfo: 'BINKA' Registered
+LogAudio: Display: AudioInfo: 'RADA' Registered
+LogAudio: Display: Audio Device Manager Pre-Initialized
+LogPluginManager: Looking for build plugins target receipt
+LogAssetRegistry: Display: No AssetDiscovery cache present at ../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Intermediate/CachedAssetRegistryDiscovery.bin. AssetRegistry discovery of files will be uncached.
+LogPluginManager: Unable to find target receipt in path: ../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Binaries/Win64/*.target
+LogConfig: Display: Loading VulkanPC ini files took 0.04 seconds
+LogConfig: Display: Loading Android ini files took 0.04 seconds
+LogConfig: Display: Loading Mac ini files took 0.04 seconds
+LogConfig: Display: Loading IOS ini files took 0.04 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.05 seconds
+LogConfig: Display: Loading TVOS ini files took 0.05 seconds
+LogConfig: Display: Loading Windows ini files took 0.05 seconds
+LogConfig: Display: Loading Unix ini files took 0.05 seconds
+LogConfig: Display: Loading Linux ini files took 0.06 seconds
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Looking for enabled plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Binaries/Win64/*.target
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosInsights
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin IoStoreInsights
+LogPluginManager: Mounting Engine plugin MassInsights
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin UbaController
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin AdvancedRenamer
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin EditorTelemetry
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin EditorPerformance
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin SequenceNavigator
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin CameraCalibrationCore
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin GameplayInsights
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin ProjectLauncher
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin CompositeCore
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin ObjectMixer
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogStudioTelemetry: Started StudioTelemetry Session
+LogNFORDenoise: NFORDenoise function starting up
+LogEOSShared: Loaded "C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/EOSSDK-Win64-Shipping.dll"
+LogEOSShared: FEOSSDKManager::Initialize Initializing EOSSDK Version:1.17.0-41373641
+LogInit: Using libcurl 8.12.1
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:      CURL_VERSION_HTTP2
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+LogInit: Creating http thread with maximum 256 concurrent requests
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogConfig: Applying CVar settings from Section [/Script/CompositeCore.CompositeCorePluginSettings] File [Engine]
+LogInit: ExecutableName: UnrealEditor.exe
+LogInit: Build: ++UE5+Release-5.6-CL-44394996
+LogInit: Platform=WindowsEditor
+LogInit: MachineId=db90dc044c82298342dd67b17c400577
+LogInit: DeviceId=
+LogInit: Engine Version: 5.6.1-44394996+++UE5+Release-5.6
+LogInit: Compatible Engine Version: 5.6.0-43139311+++UE5+Release-5.6
+LogInit: Net CL: 43139311
+LogInit: OS: Windows 11 (24H2) [10.0.26100.4652] (), CPU: 13th Gen Intel(R) Core(TM) i9-13900H, GPU: NVIDIA GeForce RTX 4070 Laptop GPU
+LogInit: Compiled (64-bit): Jul 28 2025 20:53:34
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.38.33130.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.6
+LogInit: Command Line: -AUTH_LOGIN=unused -AUTH_PASSWORD=aae3b676f9d540e881d6d3fadbf3e2d4 -AUTH_TYPE=exchangecode -epicapp=UE_5.6 -epicenv=Prod -EpicPortal -epicusername=RazerWind377 -epicuserid=2b87d7104ad54de7baad1be6a5d9997a -epiclocale=en -epicsandboxid=ue
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 37
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 207
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 13
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 121
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 56
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogDevObjectVersion:   LensFileVersion (8652A554-966A-466C-9FD7-1C6DD61B1ADB): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Nanite.Streaming.ReservedResources:1]]
+LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - dummy variable created
+LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
+LogConfig: Set CVar [[r.VRS.EnableSoftware:1]]
+LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[r.VSync:0]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[r.AllowStaticLighting:0]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[r.SkinCache.CompileShaders:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[r.RayTracing:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[r.RayTracing.RayTracingProxies.ProjectEnabled:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.HighlightContrastScale:0.8]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.ShadowContrastScale:0.8]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2025.09.26-19.21.53:116][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2025.09.26-19.21.53:116][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:2]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[DefaultASTCQualityBySizeHQ:4]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:AmbientSound]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[VersionedIntRValues:r.Mobile.DBuffer]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2025.09.26-19.21.53:116][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2025.09.26-19.21.53:118][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1920"
+[2025.09.26-19.21.53:118][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="1080"
+[2025.09.26-19.21.53:119][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:8]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:32]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:64]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:100]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:8]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:70]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:5]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:2]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:256]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:256]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.MaxSampleCount:8]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.UseExistenceMask:0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2025.09.26-19.21.53:119][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2025.09.26-19.21.53:121][  0]LogRHI: Using Default RHI: D3D12
+[2025.09.26-19.21.53:121][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2025.09.26-19.21.53:121][  0]LogRHI: Loading RHI module D3D12RHI
+[2025.09.26-19.21.53:123][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2025.09.26-19.21.53:123][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2025.09.26-19.21.53:417][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 4070 Laptop GPU (VendorId: 10de, DeviceId: 2860, SubSysId: 3e6717aa, Revision: 00a1
+[2025.09.26-19.21.53:417][  0]LogD3D12RHI:   Max supported Feature Level 12_2, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.09.26-19.21.53:417][  0]LogD3D12RHI:   Adapter has 7948MB of dedicated video memory, 0MB of dedicated system memory, and 8088MB of shared system memory, 3 output[s], UMA:false
+[2025.09.26-19.21.53:417][  0]LogD3D12RHI:   Driver Version: 577.00 (internal:32.0.15.7700, unified:577.00)
+[2025.09.26-19.21.53:417][  0]LogD3D12RHI:      Driver Date: 7-14-2025
+[2025.09.26-19.21.53:432][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (VendorId: 1414, DeviceId: 008c, SubSysId: 0000, Revision: 0000
+[2025.09.26-19.21.53:432][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.09.26-19.21.53:432][  0]LogD3D12RHI:   Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8088MB of shared system memory, 0 output[s], UMA:true
+[2025.09.26-19.21.53:432][  0]LogD3D12RHI: DirectX Agility SDK runtime found.
+[2025.09.26-19.21.53:432][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2025.09.26-19.21.53:432][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2025.09.26-19.21.53:432][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2025.09.26-19.21.53:432][  0]LogHAL: Display: Platform has ~ 16 GB [16961822720 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.09.26-19.21.53:432][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2025.09.26-19.21.53:432][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.09.26-19.21.53:432][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2025.09.26-19.21.53:432][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2025.09.26-19.21.53:432][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.09.26-19.21.53:432][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2025.09.26-19.21.53:432][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2025.09.26-19.21.53:432][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2025.09.26-19.21.53:432][  0]LogConfig: CVar [[ds.CADTranslator.Meshing.ActivateThinZoneMeshing:0]] deferred - dummy variable created
+[2025.09.26-19.21.53:432][  0]LogConfig: CVar [[ds.CADTranslator.Stitching.RemoveThinFaces:0]] deferred - dummy variable created
+[2025.09.26-19.21.53:432][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.09.26-19.21.53:432][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2025.09.26-19.21.53:433][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/Config/WindowsEditor/Editor.ini]
+[2025.09.26-19.21.53:433][  0]LogInit: Computer: LAPTOP-FNMKRNJC
+[2025.09.26-19.21.53:433][  0]LogInit: User: joshu
+[2025.09.26-19.21.53:433][  0]LogInit: CPU Page size=4096, Cores=14
+[2025.09.26-19.21.53:433][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.09.26-19.21.53:433][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2025.09.26-19.21.53:433][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx) Virtual=27.0GB
+[2025.09.26-19.21.53:433][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2025.09.26-19.21.53:433][  0]LogMemory: Process Physical Memory: 577.22 MB used, 622.76 MB peak
+[2025.09.26-19.21.53:433][  0]LogMemory: Process Virtual Memory: 583.16 MB used, 586.50 MB peak
+[2025.09.26-19.21.53:433][  0]LogMemory: Physical Memory: 14507.12 MB used,  1668.93 MB free, 16176.05 MB total
+[2025.09.26-19.21.53:433][  0]LogMemory: Virtual Memory: 24320.07 MB used,  3313.06 MB free, 27633.14 MB total
+[2025.09.26-19.21.53:433][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2025.09.26-19.21.53:469][  0]LogWindows: WindowsPlatformFeatures enabled
+[2025.09.26-19.21.53:472][  0]LogChaosDD: Chaos Debug Draw Startup
+[2025.09.26-19.21.53:472][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2025.09.26-19.21.53:472][  0]LogInit: Using OS detected language (en-US).
+[2025.09.26-19.21.53:472][  0]LogInit: Using OS detected locale (en-CA).
+[2025.09.26-19.21.53:479][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2025.09.26-19.21.53:479][  0]LogInit: Setting process to per monitor DPI aware
+[2025.09.26-19.21.53:793][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2025.09.26-19.21.53:793][  0]LogWindowsTextInputMethodSystem:   - English (Canada) - (Keyboard).
+[2025.09.26-19.21.53:793][  0]LogWindowsTextInputMethodSystem:   - English (United States) - (Keyboard).
+[2025.09.26-19.21.53:793][  0]LogWindowsTextInputMethodSystem:   - English (Canada) - Touch Input Correction (TSF IME).
+[2025.09.26-19.21.53:793][  0]LogWindowsTextInputMethodSystem: Activated input method: English (Canada) - (Keyboard).
+[2025.09.26-19.21.53:796][  0]LogWindowsTouchpad: Display: CacheForceMaxTouchpadSensitivityMode SetMaxTouchpadSensitivity
+[2025.09.26-19.21.53:799][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2025.09.26-19.21.53:803][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2025.09.26-19.21.53:803][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2025.09.26-19.21.53:975][  0]LogRHI: Using Default RHI: D3D12
+[2025.09.26-19.21.53:975][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2025.09.26-19.21.53:975][  0]LogRHI: Loading RHI module D3D12RHI
+[2025.09.26-19.21.53:975][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2025.09.26-19.21.53:975][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2025.09.26-19.21.53:975][  0]LogD3D12RHI: Integrated GPU (iGPU): false
+[2025.09.26-19.21.53:975][  0]LogD3D12RHI: Display: Creating D3D12 RHI with Max Feature Level SM6
+[2025.09.26-19.21.53:977][  0]LogWindows: Attached monitors:
+[2025.09.26-19.21.53:977][  0]LogWindows:     resolution: 2560x1600, work area: (1920, -173) -> (4480, 1355), device: '\\.\DISPLAY1'
+[2025.09.26-19.21.53:977][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1032), device: '\\.\DISPLAY2' [PRIMARY]
+[2025.09.26-19.21.53:977][  0]LogWindows:     resolution: 2560x1080, work area: (-2560, -10) -> (0, 1022), device: '\\.\DISPLAY3'
+[2025.09.26-19.21.53:977][  0]LogWindows: Found 3 attached monitors.
+[2025.09.26-19.21.53:977][  0]LogWindows: Gathering driver information using Windows Setup API
+[2025.09.26-19.21.53:977][  0]LogRHI: RHI Adapter Info:
+[2025.09.26-19.21.53:977][  0]LogRHI:             Name: NVIDIA GeForce RTX 4070 Laptop GPU
+[2025.09.26-19.21.53:977][  0]LogRHI:   Driver Version: 577.00 (internal:32.0.15.7700, unified:577.00)
+[2025.09.26-19.21.53:977][  0]LogRHI:      Driver Date: 7-14-2025
+[2025.09.26-19.21.53:977][  0]LogD3D12RHI:     GPU DeviceId: 0x2860 (for the marketing name, search the web for "GPU Device Id")
+[2025.09.26-19.21.53:977][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2025.09.26-19.21.54:075][  0]LogNvidiaAftermath: Aftermath initialized
+[2025.09.26-19.21.54:075][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2025.09.26-19.21.54:149][  0]LogNvidiaAftermath: Aftermath enabled. Active feature flags: 
+[2025.09.26-19.21.54:149][  0]LogNvidiaAftermath:  - Feature: EnableResourceTracking
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: ID3D12Device8 is supported.
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: ID3D12Device9 is supported.
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: ID3D12Device10 is supported.
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: ID3D12Device11 is supported.
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: ID3D12Device12 is supported.
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: Bindless resources are supported
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: Stencil ref from pixel shader is not supported
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: Raster order views are supported
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: Wave Operations are supported (wave size: min=32 max=32).
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: D3D12 ray tracing tier 1.1 and bindless resources are supported.
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2025.09.26-19.21.54:149][  0]LogD3D12RHI: Work Graphs are supported
+[2025.09.26-19.21.54:236][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x0000023EDDC33AC0)
+[2025.09.26-19.21.54:237][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x0000023EDDC33D80)
+[2025.09.26-19.21.54:237][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x0000023EDDC34040)
+[2025.09.26-19.21.54:237][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2025.09.26-19.21.54:237][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2025.09.26-19.21.54:415][  0]LogD3D12RHI: NVIDIA Shader Execution Reordering interface supported!
+[2025.09.26-19.21.54:415][  0]LogD3D12RHI: Display: Batched command list execution is disabled for async queues due to known bugs in the current driver.
+[2025.09.26-19.21.54:415][  0]LogRHI: Texture pool is 4523 MB (70% of 6462 MB)
+[2025.09.26-19.21.54:415][  0]LogD3D12RHI: Async texture creation enabled
+[2025.09.26-19.21.54:415][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2025.09.26-19.21.54:472][  0]LogVRS: Current RHI supports per-draw and screenspace Variable Rate Shading
+[2025.09.26-19.21.54:476][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="D3D12"
+[2025.09.26-19.21.54:476][  0]LogCsvProfiler: Display: Metadata set : rhiname="D3D12"
+[2025.09.26-19.21.54:476][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2025.09.26-19.21.54:476][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2025.09.26-19.21.54:476][  0]LogInit: Initializing FReadOnlyCVARCache
+[2025.09.26-19.21.54:479][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/SMMScene.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Intermediate/TurnkeyReport_0.log" -log="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Intermediate/TurnkeyLog_0.log" -project="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/SMMScene.uproject"  -platform=all'
+[2025.09.26-19.21.54:479][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/SMMScene.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Intermediate/TurnkeyReport_0.log" -log="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Intermediate/TurnkeyLog_0.log" -project="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/SMMScene.uproject"  -platform=all" ]
+[2025.09.26-19.21.54:496][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2025.09.26-19.21.54:496][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2025.09.26-19.21.54:496][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2025.09.26-19.21.54:496][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2025.09.26-19.21.54:496][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2025.09.26-19.21.54:496][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2025.09.26-19.21.54:496][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.13
+[2025.09.26-19.21.54:496][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.13.dll
+[2025.09.26-19.21.54:497][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2025.09.26-19.21.54:497][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2025.09.26-19.21.54:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2025.09.26-19.21.54:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2025.09.26-19.21.54:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2025.09.26-19.21.54:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2025.09.26-19.21.54:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXR'
+[2025.09.26-19.21.54:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2025.09.26-19.21.54:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2025.09.26-19.21.54:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2025.09.26-19.21.54:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2025.09.26-19.21.54:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXRClient'
+[2025.09.26-19.21.54:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2025.09.26-19.21.54:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2025.09.26-19.21.54:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2025.09.26-19.21.54:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2025.09.26-19.21.54:549][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2025.09.26-19.21.54:549][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2025.09.26-19.21.54:549][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2025.09.26-19.21.54:549][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2025.09.26-19.21.54:562][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2025.09.26-19.21.54:562][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2025.09.26-19.21.54:562][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2025.09.26-19.21.54:562][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2025.09.26-19.21.54:577][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2025.09.26-19.21.54:578][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2025.09.26-19.21.54:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2025.09.26-19.21.54:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2025.09.26-19.21.54:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2025.09.26-19.21.54:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2025.09.26-19.21.54:592][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2025.09.26-19.21.54:637][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL_ES3_1_IOS from hinted modules, loading all potential format modules to find it
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   SF_METAL_ES3_1_IOS
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   SF_METAL_SM5_IOS
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   SF_METAL_ES3_1_TVOS
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   SF_METAL_SM5_TVOS
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   SF_METAL_SM6
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   SF_METAL_SIM
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   SF_METAL_ES3_1
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   VVM_1_0
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2025.09.26-19.21.54:643][  0]LogTargetPlatformManager:   SF_VULKAN_SM6
+[2025.09.26-19.21.54:643][  0]LogRendererCore: Ray tracing is enabled (dynamic). Reason: r.RayTracing=1 and r.RayTracing.EnableOnDemand=1.
+[2025.09.26-19.21.54:643][  0]LogRendererCore: Ray tracing shaders are enabled.
+[2025.09.26-19.21.54:645][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2025.09.26-19.21.54:646][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file ../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2025.09.26-19.21.54:646][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2025.09.26-19.21.54:646][  0]LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file ../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.09.26-19.21.54:646][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2025.09.26-19.21.54:818][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1350 MiB)
+[2025.09.26-19.21.54:820][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.09.26-19.21.54:820][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2025.09.26-19.21.54:820][  0]LogZenServiceInstance: Found Zen config default=C:/Users/joshu/AppData/Local/UnrealEngine/Common/Zen/Data
+[2025.09.26-19.21.54:821][  0]LogZenServiceInstance: InTree version at 'C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/zenserver.exe' is '5.6.6-202504241958-windows-x64-release-f090a03'
+[2025.09.26-19.21.54:821][  0]LogZenServiceInstance: Installed version at 'C:/Users/joshu/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is '5.6.6-202504241958-windows-x64-release-f090a03'
+[2025.09.26-19.21.54:822][  0]LogZenServiceInstance: Found existing instance running on port 8558 matching our settings, no actions needed
+[2025.09.26-19.21.55:306][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2025.09.26-19.21.55:527][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2025.09.26-19.21.55:527][  0]LogZenServiceInstance: Local ZenServer AutoLaunch initialization completed in 0.707 seconds
+[2025.09.26-19.21.55:539][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2025.09.26-19.21.55:549][  0]LogDerivedDataCache: C:/Users/joshu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Speed tests took 0.01 seconds.
+[2025.09.26-19.21.55:549][  0]LogDerivedDataCache: Display: C:/Users/joshu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.06ms. RandomReadSpeed=391.32MBs, RandomWriteSpeed=147.52MBs. Assigned SpeedClass 'Local'
+[2025.09.26-19.21.55:550][  0]LogDerivedDataCache: Local: Using data cache path C:/Users/joshu/AppData/Local/UnrealEngine/Common/DerivedDataCache: DeleteOnly
+[2025.09.26-19.21.55:550][  0]LogDerivedDataCache: ZenShared: Disabled because Host is set to 'None'
+[2025.09.26-19.21.55:550][  0]LogDerivedDataCache: Unable to find inner node ZenShared for hierarchy Hierarchy.
+[2025.09.26-19.21.55:550][  0]LogDerivedDataCache: Shared: Disabled because no path is configured.
+[2025.09.26-19.21.55:550][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2025.09.26-19.21.55:550][  0]LogDerivedDataCache: Cloud: Disabled because Host is set to 'None'
+[2025.09.26-19.21.55:550][  0]LogDerivedDataCache: Unable to find inner node Cloud for hierarchy Hierarchy.
+[2025.09.26-19.21.55:551][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Intermediate/Shaders/WorkingDirectory/36764/).
+[2025.09.26-19.21.55:551][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joshu/AppData/Local/Temp/UnrealShaderWorkingDir/A960CF144DB3E8DA8A8534B832704A5F/'.
+[2025.09.26-19.21.55:551][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2025.09.26-19.21.55:551][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2025.09.26-19.21.55:551][  0]LogShaderCompilers: Display: Using 10 local workers for shader compilation
+[2025.09.26-19.21.55:553][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2025.09.26-19.21.55:554][  0]LogShaderCompilers: Display: Failed to delete old shader autogen file: ../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2025.09.26-19.21.55:554][  0]LogShaderCompilers: Display: Shader autogen file written: ../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2025.09.26-19.21.57:087][  0]LogSlate: Using FreeType 2.10.0
+[2025.09.26-19.21.57:088][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2025.09.26-19.21.57:092][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2025.09.26-19.21.57:092][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png]
+[2025.09.26-19.21.57:092][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2025.09.26-19.21.57:092][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png]
+[2025.09.26-19.21.57:113][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2025.09.26-19.21.57:115][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2025.09.26-19.21.57:214][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches ../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Intermediate/CachedAssetRegistry_*.bin.
+[2025.09.26-19.21.57:357][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2025.09.26-19.21.57:357][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2025.09.26-19.21.57:389][  0]LogDeviceProfileManager: Active device profile: [0000023F268C1400][0000023EBD2D7800 66] WindowsEditor
+[2025.09.26-19.21.57:389][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2025.09.26-19.21.57:392][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.26-19.21.57:416][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2025.09.26-19.21.57:416][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2025.09.26-19.21.57:416][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2025.09.26-19.21.57:492][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Valid, MinAllowed_Sdk=10.0.19041.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.22621.0, Allowed_AutoSdk=10.0.22621.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists, Sdk_HasBestVersion")
+[2025.09.26-19.21.57:494][  0]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/SMMScene.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Intermediate/TurnkeyReport_1.log" -log="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Intermediate/TurnkeyLog_1.log" -project="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/SMMScene.uproject"  -Device=Win64@LAPTOP-FNMKRNJC'
+[2025.09.26-19.21.57:494][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/SMMScene.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Intermediate/TurnkeyReport_1.log" -log="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Intermediate/TurnkeyLog_1.log" -project="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/SMMScene.uproject"  -Device=Win64@LAPTOP-FNMKRNJC" -nocompile -nocompileuat ]
+[2025.09.26-19.21.57:604][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.09.26-19.21.57:604][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+[2025.09.26-19.21.57:604][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.09.26-19.21.57:604][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.09.26-19.21.57:605][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+[2025.09.26-19.21.57:605][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.09.26-19.21.57:605][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.09.26-19.21.57:606][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_M because of a recursive sync load
+[2025.09.26-19.21.57:606][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_N because of a recursive sync load
+[2025.09.26-19.21.57:608][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade because of a recursive sync load
+[2025.09.26-19.21.57:608][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.09.26-19.21.57:608][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.09.26-19.21.57:608][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.09.26-19.21.57:610][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDiffuse because of a recursive sync load
+[2025.09.26-19.21.57:610][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components because of a recursive sync load
+[2025.09.26-19.21.57:611][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+[2025.09.26-19.21.57:611][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.09.26-19.21.57:653][  0]LogMaterial: Display: Missing cached shadermap for DefaultPostProcessMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 41f601ed07a6797a4e7749668d2efbb93af8a944), compiling. 
+[2025.09.26-19.21.57:741][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+[2025.09.26-19.21.57:741][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.09.26-19.21.57:794][  0]LogMaterial: Display: Missing cached shadermap for DefaultLightFunctionMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: c4973b6043e1e82d4a7bfb640e3a15d00a2b586b), compiling. 
+[2025.09.26-19.21.57:939][  0]LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+[2025.09.26-19.21.57:940][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.09.26-19.21.57:958][  0]LogMaterial: Display: Missing cached shadermap for DefaultDeferredDecalMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: f57e87d8bfb42e98028df326abe2a615b3a22a43), compiling. 
+[2025.09.26-19.21.58:103][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+[2025.09.26-19.21.58:103][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.09.26-19.21.58:237][  0]LogMaterial: Display: Missing cached shadermap for WorldGridMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 14d57a86eb4baf5cfde726be7e98ec2b39d3735c), compiling. Is special engine material.
+[2025.09.26-19.22.00:779][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.09.26-19.22.00:779][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.09.26-19.22.00:779][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.09.26-19.22.00:779][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.09.26-19.22.00:779][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2025.09.26-19.22.00:941][  0]LogTurnkeySupport: Completed device detection: Code = 0
+[2025.09.26-19.22.02:111][  0]LogConfig: Applying CVar settings from Section [/Script/CQTest.CQTestSettings] File [Engine]
+[2025.09.26-19.22.02:171][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.09.26-19.22.02:171][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.09.26-19.22.02:171][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetActorFactory name: NetActorFactory id: 0
+[2025.09.26-19.22.02:171][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetSubObjectFactory name: NetSubObjectFactory id: 1
+[2025.09.26-19.22.02:174][  0]LogLiveCoding: Display: Starting LiveCoding
+[2025.09.26-19.22.02:174][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2025.09.26-19.22.02:175][  0]LogLiveCoding: Display: First instance in process group "UE_SMMScene_0x57ea67bb", spawning console
+[2025.09.26-19.22.02:183][  0]LogLiveCoding: Display: Waiting for server
+[2025.09.26-19.22.02:227][  0]LogSlate: Border
+[2025.09.26-19.22.02:227][  0]LogSlate: BreadcrumbButton
+[2025.09.26-19.22.02:227][  0]LogSlate: Brushes.Title
+[2025.09.26-19.22.02:227][  0]LogSlate: ColorPicker.ColorThemes
+[2025.09.26-19.22.02:227][  0]LogSlate: Default
+[2025.09.26-19.22.02:227][  0]LogSlate: Icons.Save
+[2025.09.26-19.22.02:227][  0]LogSlate: Icons.Toolbar.Settings
+[2025.09.26-19.22.02:227][  0]LogSlate: ListView
+[2025.09.26-19.22.02:227][  0]LogSlate: SoftwareCursor_CardinalCross
+[2025.09.26-19.22.02:227][  0]LogSlate: SoftwareCursor_Grab
+[2025.09.26-19.22.02:227][  0]LogSlate: TableView.DarkRow
+[2025.09.26-19.22.02:227][  0]LogSlate: TableView.Row
+[2025.09.26-19.22.02:227][  0]LogSlate: TreeView
+[2025.09.26-19.22.02:406][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.09.26-19.22.02:407][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 1.744 ms
+[2025.09.26-19.22.02:436][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2025.09.26-19.22.02:436][  0]LogInit: XR: MultiViewport is Disabled
+[2025.09.26-19.22.02:436][  0]LogInit: XR: Mobile Multiview is Disabled
+[2025.09.26-19.22.02:452][  0]LogTurnkeySupport: Turnkey Device: Win64@LAPTOP-FNMKRNJC: (Name=LAPTOP-FNMKRNJC, Type=Computer, Status=Valid, MinAllowed=10.0.19041.0, MaxAllowed=, Current=10.0.26100.0, Flags="Device_InstallSoftwareValid")
+[2025.09.26-19.22.02:488][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.004 s
+[2025.09.26-19.22.02:993][  0]LogUdpMessaging: Display: Work queue size set to 1024.
+[2025.09.26-19.22.02:993][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2025.09.26-19.22.02:994][  0]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:62623'.
+[2025.09.26-19.22.02:999][  0]LogUdpMessaging: Display: Added local interface '192.168.40.60' to multicast group '230.0.0.1:6666'
+[2025.09.26-19.22.03:006][  0]LogUdpMessaging: Display: Using asynchronous task graph for message deserialization.
+[2025.09.26-19.22.03:014][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2025.09.26-19.22.03:237][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.09.26-19.22.03:237][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.09.26-19.22.03:270][  0]LogMetaSound: MetaSound Engine Initialized
+[2025.09.26-19.22.03:599][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 9049E808BAEB40A48000000000007000 | Instance: 61B398D64D34287E22017594F6B2D5C9 (LAPTOP-FNMKRNJC-36764).
+[2025.09.26-19.22.03:748][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.09.26-19.22.03:748][  0]LogNNERuntimeORT: Selecting NPU adapter: NVIDIA GeForce RTX 4070 Laptop GPU
+[2025.09.26-19.22.03:748][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2025.09.26-19.22.03:749][  0]LogNNERuntimeORT:   DirectML:  yes
+[2025.09.26-19.22.03:749][  0]LogNNERuntimeORT:   RHI D3D12: yes
+[2025.09.26-19.22.03:749][  0]LogNNERuntimeORT:   D3D12:     yes
+[2025.09.26-19.22.03:749][  0]LogNNERuntimeORT:   NPU:       yes
+[2025.09.26-19.22.03:749][  0]LogNNERuntimeORT: Interface availability:
+[2025.09.26-19.22.03:749][  0]LogNNERuntimeORT:   GPU: yes
+[2025.09.26-19.22.03:749][  0]LogNNERuntimeORT:   RDG: yes
+[2025.09.26-19.22.03:749][  0]LogNNERuntimeORT:   NPU: yes
+[2025.09.26-19.22.03:749][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.09.26-19.22.03:749][  0]LogNNERuntimeORT: Selecting NPU adapter: NVIDIA GeForce RTX 4070 Laptop GPU
+[2025.09.26-19.22.03:810][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.09.26-19.22.03:810][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.09.26-19.22.03:824][  0]LogTimingProfiler: Initialize
+[2025.09.26-19.22.03:824][  0]LogTimingProfiler: OnSessionChanged
+[2025.09.26-19.22.03:824][  0]LoadingProfiler: Initialize
+[2025.09.26-19.22.03:824][  0]LoadingProfiler: OnSessionChanged
+[2025.09.26-19.22.03:824][  0]LogNetworkingProfiler: Initialize
+[2025.09.26-19.22.03:824][  0]LogNetworkingProfiler: OnSessionChanged
+[2025.09.26-19.22.03:824][  0]LogMemoryProfiler: Initialize
+[2025.09.26-19.22.03:824][  0]LogMemoryProfiler: OnSessionChanged
+[2025.09.26-19.22.03:918][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2025.09.26-19.22.04:249][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2025.09.26-19.22.04:260][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.09.26-19.22.04:260][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.09.26-19.22.04:442][  0]SourceControl: Revision control is disabled
+[2025.09.26-19.22.04:451][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2025.09.26-19.22.04:451][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2025.09.26-19.22.04:451][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2025.09.26-19.22.04:451][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2025.09.26-19.22.04:460][  0]SourceControl: Revision control is disabled
+[2025.09.26-19.22.04:803][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2025.09.26-19.22.04:854][  0]LogCollectionManager: Loaded 0 collections in 0.002588 seconds
+[2025.09.26-19.22.04:859][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/Collections/' took 0.00s
+[2025.09.26-19.22.04:864][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Developers/joshu/Collections/' took 0.00s
+[2025.09.26-19.22.04:871][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Collections/' took 0.01s
+[2025.09.26-19.22.04:929][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2025.09.26-19.22.04:929][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png]
+[2025.09.26-19.22.04:929][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2025.09.26-19.22.04:929][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png]
+[2025.09.26-19.22.04:944][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2025.09.26-19.22.04:944][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2025.09.26-19.22.04:944][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2025.09.26-19.22.04:944][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2025.09.26-19.22.04:966][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Version 1.17.0-41373641 booting at 2025-09-26T19:22:04.966Z using C
+[2025.09.26-19.22.04:966][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Properties [OS=Windows/10.0.26100.4484.64bit, ClientId=xyza7891REBVsEqSJRRNXmlS7EQHM459, ProductId=86f32f1151354e7cb39c12f8ab2c22a3, SandboxId=a01927f7421a4d4995673fe30ef46945, DeploymentId=a652a72ea1664dcab3a467891eea5f30, ProductName=SMMScene, ProductVersion=++UE5+Release-5.6-CL-44394996, IsServer=false, Flags=DisableOverlay]
+[2025.09.26-19.22.04:968][  0]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.09.26-19.22.04:968][  0]LogEOSSDK: LogEOSOverlay: Overlay will not load, because it was explicitly disabled when creating the platform
+[2025.09.26-19.22.04:976][  0]LogEOSSDK: LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+[2025.09.26-19.22.04:976][  0]LogEOSSDK: LogEOS: SetApplicationStatus - OldStatus: EOS_AS_Foreground, NewStatus: EOS_AS_Foreground, Current Time: 0001.01.01-00.00.00
+[2025.09.26-19.22.04:976][  0]LogEOSSDK: LogEOS: SetNetworkStatus - OldStatus: EOS_NS_Online, NewStatus: EOS_NS_Online
+[2025.09.26-19.22.04:976][  0]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 0.000070
+[2025.09.26-19.22.05:045][  0]LogUObjectArray: 42346 objects as part of root set at end of initial load.
+[2025.09.26-19.22.05:045][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.09.26-19.22.05:183][  0]LogEngine: Initializing Engine...
+[2025.09.26-19.22.05:352][  0]LogTedsSettings: UTedsSettingsEditorSubsystem::Initialize
+[2025.09.26-19.22.05:353][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2025.09.26-19.22.05:533][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2025.09.26-19.22.05:545][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2025.09.26-19.22.05:553][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2025.09.26-19.22.05:564][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2025.09.26-19.22.05:564][  0]LogInit: Texture streaming: Enabled
+[2025.09.26-19.22.05:570][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::StartSession ( APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = 5.6.1-44394996+++UE5+Release-5.6 )
+[2025.09.26-19.22.05:581][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2025.09.26-19.22.05:588][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2025.09.26-19.22.05:588][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2025.09.26-19.22.05:589][  0]LogAudio: Display: Audio Device Manager Initialized
+[2025.09.26-19.22.05:589][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2025.09.26-19.22.05:589][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.26-19.22.05:589][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.26-19.22.05:589][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.26-19.22.05:589][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.26-19.22.05:589][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.26-19.22.05:589][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.26-19.22.05:589][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.26-19.22.05:589][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.26-19.22.05:589][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.26-19.22.05:589][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.26-19.22.05:589][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.26-19.22.05:594][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.26-19.22.05:689][  0]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.09.26-19.22.05:690][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.26-19.22.05:690][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.26-19.22.05:690][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.26-19.22.05:693][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.09.26-19.22.05:693][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.09.26-19.22.05:694][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.09.26-19.22.05:695][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2025.09.26-19.22.05:695][  0]LogInit: FAudioDevice initialized with ID 1.
+[2025.09.26-19.22.05:695][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2025.09.26-19.22.05:695][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2025.09.26-19.22.05:704][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.09.26-19.22.05:708][  0]LogInit: Undo buffer set to 256 MB
+[2025.09.26-19.22.05:708][  0]LogInit: Transaction tracking system initialized
+[2025.09.26-19.22.05:773][  0]LocalizationService: Localization service is disabled
+[2025.09.26-19.22.05:928][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/' took 0.00s
+[2025.09.26-19.22.05:966][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2025.09.26-19.22.05:966][  0]LogPython: Using Python 3.11.8
+[2025.09.26-19.22.06:004][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2025.09.26-19.22.06:219][  0]LogRenderer: Requested compilation of Path Tracing RTPSOs (16 permutations).
+[2025.09.26-19.22.06:543][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2025.09.26-19.22.06:577][  0]LogEditorDataStorage: Initializing
+[2025.09.26-19.22.06:586][  0]LogEditorDataStorage: Initialized
+[2025.09.26-19.22.06:594][  0]LogCore: Display: GameplayInsights module auto-connecting to local trace server...
+[2025.09.26-19.22.06:633][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.09.26-19.22.06:717][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2025.09.26-19.22.06:744][  0]SourceControl: Revision control is disabled
+[2025.09.26-19.22.06:745][  0]LogUnrealEdMisc: Loading editor; pre map load, took 14.518
+[2025.09.26-19.22.06:757][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/OpenWorld.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.26-19.22.06:757][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.09.26-19.22.06:757][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-19.22.06:829][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.26-19.22.06:829][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.09.26-19.22.06:870][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2025.09.26-19.22.06:871][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_1
+[2025.09.26-19.22.06:871][  0]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.09.26-19.22.06:871][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.26-19.22.06:871][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Temp/Untitled_1.Untitled_1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.26-19.22.07:088][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.09.26-19.22.07:104][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.09.26-19.22.07:105][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.09.26-19.22.07:108][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [AppleTV]
+[2025.09.26-19.22.07:108][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [IOS]
+[2025.09.26-19.22.07:108][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.09.26-19.22.07:123][  0]LogDeviceProfileManager: Display: Deviceprofile None not found.
+[2025.09.26-19.22.07:251][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 1032.35 ms.
+[2025.09.26-19.22.07:271][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 1055.11 ms.
+[2025.09.26-19.22.07:277][  0]LogWorldPartition: Display: WorldPartition initialize took 423.751 ms
+[2025.09.26-19.22.07:332][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 1113.26 ms.
+[2025.09.26-19.22.07:342][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 1124.52 ms.
+[2025.09.26-19.22.07:361][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 1144.10 ms.
+[2025.09.26-19.22.07:377][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 1161.30 ms.
+[2025.09.26-19.22.07:385][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 1165.71 ms.
+[2025.09.26-19.22.07:408][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 1191.32 ms.
+[2025.09.26-19.22.07:414][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 1197.89 ms.
+[2025.09.26-19.22.07:422][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 1203.46 ms.
+[2025.09.26-19.22.07:423][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 1207.12 ms.
+[2025.09.26-19.22.07:442][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 1224.54 ms.
+[2025.09.26-19.22.07:452][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 1235.44 ms.
+[2025.09.26-19.22.07:462][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 1199.90 ms.
+[2025.09.26-19.22.07:472][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 1256.13 ms.
+[2025.09.26-19.22.07:475][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 1213.04 ms.
+[2025.09.26-19.22.07:511][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.26-19.22.07:530][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.09.26-19.22.07:530][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.26-19.22.07:532][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.923ms to complete.
+[2025.09.26-19.22.07:541][  0]LogUnrealEdMisc: Total Editor Startup Time, took 15.316
+[2025.09.26-19.22.07:664][  0]LogPlacementMode: Display: The Asset Registry is not yet fully loaded so some placeable classes might be missing.
+[2025.09.26-19.22.07:810][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-19.22.07:873][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-19.22.07:937][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-19.22.07:949][  0]LogAssetRegistry: Display: Asset registry cache written as 66.6 MiB to ../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Intermediate/CachedAssetRegistry_*.bin
+[2025.09.26-19.22.07:997][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-19.22.08:151][  0]LogPakFile: Initializing PakPlatformFile
+[2025.09.26-19.22.08:151][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2025.09.26-19.22.08:151][  0]LogPakFile: Initializing PakPlatformFile
+[2025.09.26-19.22.08:151][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2025.09.26-19.22.08:151][  0]LogPakFile: Initializing PakPlatformFile
+[2025.09.26-19.22.08:152][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2025.09.26-19.22.08:152][  0]LogPakFile: Initializing PakPlatformFile
+[2025.09.26-19.22.08:152][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2025.09.26-19.22.08:152][  0]LogPakFile: Initializing PakPlatformFile
+[2025.09.26-19.22.08:152][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2025.09.26-19.22.08:152][  0]LogPakFile: Initializing PakPlatformFile
+[2025.09.26-19.22.08:152][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2025.09.26-19.22.08:153][  0]LogPakFile: Initializing PakPlatformFile
+[2025.09.26-19.22.08:153][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2025.09.26-19.22.08:153][  0]LogPakFile: Initializing PakPlatformFile
+[2025.09.26-19.22.08:153][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2025.09.26-19.22.08:153][  0]LogPakFile: Initializing PakPlatformFile
+[2025.09.26-19.22.08:153][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2025.09.26-19.22.08:153][  0]LogPakFile: Initializing PakPlatformFile
+[2025.09.26-19.22.08:154][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2025.09.26-19.22.08:337][  0]LogSlate: Took 0.000461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.09.26-19.22.08:346][  0]LogSlate: Took 0.006381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.09.26-19.22.08:347][  0]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.09.26-19.22.08:514][  0]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.26-19.22.08:806][  0]LogPSOHitching: Encountered 50 PSO creation hitches so far (9 graphics, 41 compute). 0 of them were precached.
+[2025.09.26-19.22.09:070][  0]LogPSOHitching: Encountered 100 PSO creation hitches so far (14 graphics, 86 compute). 0 of them were precached.
+[2025.09.26-19.22.09:377][  0]LogStall: Startup...
+[2025.09.26-19.22.09:380][  0]LogStall: Startup complete.
+[2025.09.26-19.22.09:388][  0]LogLoad: (Engine Initialization) Total time: 17.16 seconds
+[2025.09.26-19.22.09:659][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.09.26-19.22.09:659][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2025.09.26-19.22.09:712][  0]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.09.26-19.22.09:757][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-19.22.09:758][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2025.09.26-19.22.09:791][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2025.09.26-19.22.09:805][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 46.960 ms
+[2025.09.26-19.22.10:006][  1]LogAssetRegistry: AssetRegistryGather time 7.8046s: AssetDataDiscovery 0.0646s, AssetDataGather 7.6982s, StoreResults 0.0417s. Wall time 12.8940s.
+	NumCachedDirectories 0. NumUncachedDirectories 1451. NumCachedFiles 0. NumUncachedFiles 7376.
+	BackgroundTickInterruptions 0.
+[2025.09.26-19.22.10:024][  1]LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+[2025.09.26-19.22.10:032][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2025.09.26-19.22.10:032][  1]LogSourceControl: Uncontrolled asset discovery started...
+[2025.09.26-19.22.10:138][  1]LogStreaming: Display: FlushAsyncLoading(410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473): 64 QueuedPackages, 0 AsyncPackages
+[2025.09.26-19.22.10:275][  1]LogSourceControl: Uncontrolled asset discovery finished in 0.243105 seconds (Found 7352 uncontrolled assets)
+[2025.09.26-19.22.10:411][  2]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 5.400383
+[2025.09.26-19.22.10:412][  2]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2025.09.26-19.22.10:412][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5.435205
+[2025.09.26-19.22.10:679][  4]LogPSOHitching: Encountered 150 PSO creation hitches so far (40 graphics, 110 compute). 0 of them were precached.
+[2025.09.26-19.22.11:419][  6]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.09.26-19.22.12:083][  8]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 6.774158
+[2025.09.26-19.22.12:084][  8]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1542370262
+[2025.09.26-19.22.12:084][  8]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6.774158, Update Interval: 347.251801
+[2025.09.26-19.23.49:027][210]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.09.26-19.23.49:068][210]LogContentBrowser: Creating deferred item: NewFolder
+[2025.09.26-19.23.49:075][210]LogSlate: Took 0.006485 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.09.26-19.23.49:112][212]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.09.26-19.23.50:621][303]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2025.09.26-19.23.50:621][303]LogContentBrowser: End creating deferred item NewFolder
+[2025.09.26-19.23.55:560][598]LogDerivedDataCache: C:/Users/joshu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.010 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.26-19.25.05:981][565]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.26-19.25.06:007][565]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.09.26-19.25.06:014][565]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.09.26-19.25.06:052][567]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.09.26-19.25.10:295][822]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Player
+[2025.09.26-19.25.10:320][822]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.09.26-19.25.15:325][116]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.09.26-19.25.15:338][116]LogContentBrowser: Creating deferred item: NewFolder
+[2025.09.26-19.25.15:347][117]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.09.26-19.25.16:423][182]LogContentBrowser: Attempting asset rename: NewFolder -> Actions
+[2025.09.26-19.25.16:423][182]LogContentBrowser: End creating deferred item NewFolder
+[2025.09.26-19.25.22:548][516]LogContentBrowser: Deferred new asset file creation: NewInputMappingContext
+[2025.09.26-19.25.22:559][516]LogContentBrowser: Creating deferred item: NewInputMappingContext
+[2025.09.26-19.25.22:600][518]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputMappingContext).
+[2025.09.26-19.25.26:728][764]LogContentBrowser: Attempting asset rename: NewInputMappingContext -> IMC_Player
+[2025.09.26-19.25.26:738][764]LogContentBrowser: End creating deferred item NewInputMappingContext
+[2025.09.26-19.25.31:671][ 46]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2025.09.26-19.25.31:681][ 46]LogContentBrowser: Creating deferred item: NewInputAction
+[2025.09.26-19.25.31:712][ 47]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2025.09.26-19.25.35:600][278]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_Move
+[2025.09.26-19.25.35:600][278]LogContentBrowser: End creating deferred item NewInputAction
+[2025.09.26-19.26.11:678][328]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.26-19.26.15:209][519]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2025.09.26-19.26.15:221][519]LogContentBrowser: Creating deferred item: NewInputAction
+[2025.09.26-19.26.15:231][520]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2025.09.26-19.26.18:327][704]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_Place
+[2025.09.26-19.26.18:328][704]LogContentBrowser: End creating deferred item NewInputAction
+[2025.09.26-19.26.27:905][262]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2025.09.26-19.26.27:916][262]LogContentBrowser: Creating deferred item: NewInputAction
+[2025.09.26-19.26.27:924][263]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2025.09.26-19.26.30:960][443]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_Select
+[2025.09.26-19.26.30:962][443]LogContentBrowser: End creating deferred item NewInputAction
+[2025.09.26-19.27.59:030][726]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 354.053192
+[2025.09.26-19.27.59:113][731]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-19.27.59:113][731]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 354.119812, Update Interval: 349.125031
+[2025.09.26-19.28.59:064][325]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Blueprints/Actions/IA_Move.IA_Move
+[2025.09.26-19.29.03:245][552]LogSlate: Window 'IA_Move' being destroyed
+[2025.09.26-19.29.03:258][552]LogSlate: Window 'IA_Move' being destroyed
+[2025.09.26-19.29.03:403][552]LogPSOHitching: Encountered 200 PSO creation hitches so far (61 graphics, 139 compute). 0 of them were precached.
+[2025.09.26-19.29.04:759][613]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Blueprints/Actions/IA_Place.IA_Place
+[2025.09.26-19.29.08:759][832]LogSlate: Window 'IA_Place' being destroyed
+[2025.09.26-19.29.08:771][832]LogSlate: Window 'IA_Place' being destroyed
+[2025.09.26-19.29.12:301][ 40]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Blueprints/Actions/IA_Select.IA_Select
+[2025.09.26-19.29.26:276][857]LogSlate: Window 'IA_Select' being destroyed
+[2025.09.26-19.29.26:287][857]LogSlate: Window 'IA_Select' being destroyed
+[2025.09.26-19.29.31:582][172]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Blueprints/Actions/IMC_Player.IMC_Player
+[2025.09.26-19.30.51:724][879]LogEditCondition: Error: EnhancedActionKeyMapping - EditCondition attempted to use an invalid operand "SettingBehavior" (value error).
+[2025.09.26-19.31.01:782][476]LogSlate: Window 'IMC_Player' being destroyed
+[2025.09.26-19.31.01:801][476]LogSlate: Window 'IMC_Player' being destroyed
+[2025.09.26-19.31.10:350][886]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.26-19.31.10:367][886]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.09.26-19.31.10:377][886]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.09.26-19.31.10:388][887]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.09.26-19.31.12:597][ 19]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Base
+[2025.09.26-19.31.12:614][ 19]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.09.26-19.31.13:559][ 74]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Base.BP_Base
+[2025.09.26-19.31.13:561][ 74]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.09.26-19.31.13:714][ 74]LogStreaming: Display: FlushAsyncLoading(474): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.26-19.31.26:379][721]LogSlate: Window 'BP_Base' being destroyed
+[2025.09.26-19.31.26:394][721]LogSlate: Window 'BP_Base' being destroyed
+[2025.09.26-19.31.26:400][721]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.09.26-19.31.26:400][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-19.31.26:589][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.09.26-19.31.30:121][892]LogSlate: External Image Picker: DecompressImage failed
+[2025.09.26-19.31.30:342][894]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.09.26-19.31.30:476][896]LogPSOHitching: Encountered 250 PSO creation hitches so far (94 graphics, 156 compute). 0 of them were precached.
+[2025.09.26-19.31.35:009][148]LogSlate: Window 'Project Settings' being destroyed
+[2025.09.26-19.31.35:020][148]LogSlate: Window 'Project Settings' being destroyed
+[2025.09.26-19.31.36:802][184]LogSlate: Window 'Save Level As' being destroyed
+[2025.09.26-19.31.39:629][273]LogSlate: Window 'Save Level As' being destroyed
+[2025.09.26-19.31.39:760][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Base" FILE="../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Base.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.26-19.31.39:794][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.09.26-19.31.39:810][273]LogSavePackage: Moving output files for package: /Game/Base
+[2025.09.26-19.31.39:810][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/BaseADB5019A429CD290B9F0F0B482644862.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Base.umap'
+[2025.09.26-19.31.39:835][273]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.26-19.31.39:882][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.09.26-19.31.39:903][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.09.26-19.31.39:925][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.09.26-19.31.39:928][273]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Base_HLOD0_Instancing] ([1] browsable assets)...
+[2025.09.26-19.31.39:928][273]OBJ SavePackage: Finished generating thumbnails for package [/Game/Base_HLOD0_Instancing]
+[2025.09.26-19.31.39:928][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Base_HLOD0_Instancing" FILE="../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Base_HLOD0_Instancing.uasset" SILENT=true
+[2025.09.26-19.31.39:938][273]LogSavePackage: Moving output files for package: /Game/Base_HLOD0_Instancing
+[2025.09.26-19.31.39:938][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/Base_HLOD0_InstancingD40BCAF54E0ACFA058235CA40D5582C8.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Base_HLOD0_Instancing.uasset'
+[2025.09.26-19.31.39:948][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/3/NN/U6DQQTNKY6YRRIHKZAINAZ
+[2025.09.26-19.31.39:948][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/U6DQQTNKY6YRRIHKZAINAZ9083CC664953A9A89179F3BA69207BE4.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/3/NN/U6DQQTNKY6YRRIHKZAINAZ.uasset'
+[2025.09.26-19.31.39:956][273]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Base/1/PE/ZPBBO53DWYCGY51PQ31VGD
+[2025.09.26-19.31.39:956][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/ZPBBO53DWYCGY51PQ31VGD997F77EF4BCFC940CD68129343E7F830.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalObjects__/Base/1/PE/ZPBBO53DWYCGY51PQ31VGD.uasset'
+[2025.09.26-19.31.39:964][273]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Base/7/R2/JPHFG0CUWDWMLPDY0E8N0S
+[2025.09.26-19.31.39:964][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/JPHFG0CUWDWMLPDY0E8N0S6AEC510F4473CE9971DB0DB0871B9932.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalObjects__/Base/7/R2/JPHFG0CUWDWMLPDY0E8N0S.uasset'
+[2025.09.26-19.31.39:972][273]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Base/B/UO/J4LCZZ2UKXPLVHAG7QLF0V
+[2025.09.26-19.31.39:972][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/J4LCZZ2UKXPLVHAG7QLF0V8C8416F448D51435F2B48AA3DAF98601.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalObjects__/Base/B/UO/J4LCZZ2UKXPLVHAG7QLF0V.uasset'
+[2025.09.26-19.31.39:980][273]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Base/C/M5/J5IR2UIJLLN4EHCFPVQ40L
+[2025.09.26-19.31.39:980][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/J5IR2UIJLLN4EHCFPVQ40L0B9BE8E04B18B0BF88AAE6829DE2B09F.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalObjects__/Base/C/M5/J5IR2UIJLLN4EHCFPVQ40L.uasset'
+[2025.09.26-19.31.39:988][273]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Base/7/44/G5MKD0IIZNFTZ3CUJFM05C
+[2025.09.26-19.31.39:988][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/G5MKD0IIZNFTZ3CUJFM05C180123A149BBC74E9FE6588FDE2B8F71.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalObjects__/Base/7/44/G5MKD0IIZNFTZ3CUJFM05C.uasset'
+[2025.09.26-19.31.39:996][273]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Base/6/58/JLYDE4O6PC5Q0G8Q2RH2MQ
+[2025.09.26-19.31.39:996][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/JLYDE4O6PC5Q0G8Q2RH2MQDAA35EC04BDC996273DBCDADCB6A0792.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalObjects__/Base/6/58/JLYDE4O6PC5Q0G8Q2RH2MQ.uasset'
+[2025.09.26-19.31.40:062][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/E/7B/HJHLGPHDHIAPKIY4Z6MWZM
+[2025.09.26-19.31.40:062][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/HJHLGPHDHIAPKIY4Z6MWZM3207D98B40B2A7B274EE87A6797D8B0A.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/E/7B/HJHLGPHDHIAPKIY4Z6MWZM.uasset'
+[2025.09.26-19.31.40:071][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/C/A6/7CSDIYU1Z00RLQUP3OU0VK
+[2025.09.26-19.31.40:071][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/7CSDIYU1Z00RLQUP3OU0VKF6AE38DE4672DAAF22385E863E1501B7.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/C/A6/7CSDIYU1Z00RLQUP3OU0VK.uasset'
+[2025.09.26-19.31.40:081][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/E/DJ/EVNZXB5S3EPU7AC59FASFL
+[2025.09.26-19.31.40:081][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/EVNZXB5S3EPU7AC59FASFL4787387B422B1AC7577725966BC066F6.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/E/DJ/EVNZXB5S3EPU7AC59FASFL.uasset'
+[2025.09.26-19.31.40:089][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/B/N1/Y34CLOUKSQ6OQLKGEG492S
+[2025.09.26-19.31.40:089][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/Y34CLOUKSQ6OQLKGEG492SBE6ABDAD4EE13936DAC8D1A31D4CCC63.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/B/N1/Y34CLOUKSQ6OQLKGEG492S.uasset'
+[2025.09.26-19.31.40:098][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/5/SS/T3SRT1U6ZSY896MPXB45AQ
+[2025.09.26-19.31.40:098][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/T3SRT1U6ZSY896MPXB45AQ0F2C2E5E455789296E90409C5C408039.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/5/SS/T3SRT1U6ZSY896MPXB45AQ.uasset'
+[2025.09.26-19.31.40:106][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/2/3T/SEP04E4KUPG363TEB6I871
+[2025.09.26-19.31.40:106][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/SEP04E4KUPG363TEB6I8716953C29C4A407F240B07FABCB07D6003.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/2/3T/SEP04E4KUPG363TEB6I871.uasset'
+[2025.09.26-19.31.40:114][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/D/17/H7WO6HW3CMG1X3I6QU3NFJ
+[2025.09.26-19.31.40:114][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/H7WO6HW3CMG1X3I6QU3NFJ977EF803473947D4D65A9B90B2A5A8F0.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/D/17/H7WO6HW3CMG1X3I6QU3NFJ.uasset'
+[2025.09.26-19.31.48:660][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/B/UC/YNUKB7SZ45T9Z070204NIH
+[2025.09.26-19.31.48:660][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/YNUKB7SZ45T9Z070204NIHA211A355455DCFF8C784CD93C3FCA6FA.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/B/UC/YNUKB7SZ45T9Z070204NIH.uasset'
+[2025.09.26-19.31.48:673][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/2/S0/YYE3DE8GXSLBIKACSNCA93
+[2025.09.26-19.31.48:673][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/YYE3DE8GXSLBIKACSNCA9398EDCED84A2D00FA30D9D58C8850B575.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/2/S0/YYE3DE8GXSLBIKACSNCA93.uasset'
+[2025.09.26-19.31.48:696][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/9/NV/861Y9JLKXRMR1H34Q0Z3U7
+[2025.09.26-19.31.48:696][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/861Y9JLKXRMR1H34Q0Z3U77FE2C168487DFCBEA93941B47244E656.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/9/NV/861Y9JLKXRMR1H34Q0Z3U7.uasset'
+[2025.09.26-19.31.48:715][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/4/QU/2RC1IDQ4LQ3XUKMB3LEHQB
+[2025.09.26-19.31.48:715][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/2RC1IDQ4LQ3XUKMB3LEHQB67E794124B370CFF58805BB79361E6B4.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/4/QU/2RC1IDQ4LQ3XUKMB3LEHQB.uasset'
+[2025.09.26-19.31.48:733][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/3/30/FI3NABZC08KNUXV4HUD5K5
+[2025.09.26-19.31.48:733][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/FI3NABZC08KNUXV4HUD5K57BC1A87744E187433982B98466452CDF.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/3/30/FI3NABZC08KNUXV4HUD5K5.uasset'
+[2025.09.26-19.31.48:757][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/B/QR/C2RRREQBGSQ7TGB7WMZPQR
+[2025.09.26-19.31.48:757][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/C2RRREQBGSQ7TGB7WMZPQR98A0BA704635C9EB9CAB7EAA5EA5CF25.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/B/QR/C2RRREQBGSQ7TGB7WMZPQR.uasset'
+[2025.09.26-19.31.48:778][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/C/X0/MFPJROQMUUS8ASMNTHNGJA
+[2025.09.26-19.31.48:778][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/MFPJROQMUUS8ASMNTHNGJA989598BA4E1295A63D3ED984D90F1A89.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/C/X0/MFPJROQMUUS8ASMNTHNGJA.uasset'
+[2025.09.26-19.31.48:799][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/E/XO/P07GEZXS3578VASANUJ8QI
+[2025.09.26-19.31.48:799][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/P07GEZXS3578VASANUJ8QID8382D9145A0CF761CF8179ECC9CF9AB.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/E/XO/P07GEZXS3578VASANUJ8QI.uasset'
+[2025.09.26-19.31.48:823][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/3/HU/CGY06LPQ0797ZAX60FOOGJ
+[2025.09.26-19.31.48:823][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/CGY06LPQ0797ZAX60FOOGJADE86D194D3B5F4B576882A79BE4F8EE.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/3/HU/CGY06LPQ0797ZAX60FOOGJ.uasset'
+[2025.09.26-19.31.48:848][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/B/3B/HBP244TA634HH4CS053X01
+[2025.09.26-19.31.48:848][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/HBP244TA634HH4CS053X0104B097F9459056D8E1FEFC9040CC9B0E.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/B/3B/HBP244TA634HH4CS053X01.uasset'
+[2025.09.26-19.31.48:872][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/A/4D/J6UZ7VD4W76PYI4D2U6SB9
+[2025.09.26-19.31.48:872][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/J6UZ7VD4W76PYI4D2U6SB93EB169504454C538F2754D99535BEA29.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/A/4D/J6UZ7VD4W76PYI4D2U6SB9.uasset'
+[2025.09.26-19.31.48:892][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/2/9N/736VP71U8RT1T8HLS1C8KS
+[2025.09.26-19.31.48:892][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/736VP71U8RT1T8HLS1C8KSEA6B7A954C53AA910A9BA5BA7DF82FEF.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/2/9N/736VP71U8RT1T8HLS1C8KS.uasset'
+[2025.09.26-19.31.48:913][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/0/VW/FECIV8QX27DM2G7R4NITID
+[2025.09.26-19.31.48:913][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/FECIV8QX27DM2G7R4NITID76AD9B24419EB5AADED00D92AA017645.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/0/VW/FECIV8QX27DM2G7R4NITID.uasset'
+[2025.09.26-19.31.48:936][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/3/H8/FLOUVQ5YUCG5UARYKJJ653
+[2025.09.26-19.31.48:936][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/FLOUVQ5YUCG5UARYKJJ653B663163B4370B8ABC36DF4A7413235E9.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/3/H8/FLOUVQ5YUCG5UARYKJJ653.uasset'
+[2025.09.26-19.31.48:968][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/3/O9/V5LA44S6V71H03CWDNHOWV
+[2025.09.26-19.31.48:968][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/V5LA44S6V71H03CWDNHOWV5DD45A6F40437782DB6B36948657A56F.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/3/O9/V5LA44S6V71H03CWDNHOWV.uasset'
+[2025.09.26-19.31.48:994][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/A/XC/AW1MS3C6I0YH9K7CSQF4XF
+[2025.09.26-19.31.48:994][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/AW1MS3C6I0YH9K7CSQF4XF9347BBE24726031660B7138FECA5EF1A.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/A/XC/AW1MS3C6I0YH9K7CSQF4XF.uasset'
+[2025.09.26-19.31.49:016][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/4/Y1/P66HCDDLBJVXR8ZAONVQCL
+[2025.09.26-19.31.49:018][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/P66HCDDLBJVXR8ZAONVQCL98F0B7244CC640876235D48A074F1B10.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/4/Y1/P66HCDDLBJVXR8ZAONVQCL.uasset'
+[2025.09.26-19.31.49:040][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/2/M7/0LNJCTNLHJQGEOQZJZ68OD
+[2025.09.26-19.31.49:040][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/0LNJCTNLHJQGEOQZJZ68ODD1D2842243F4CD2D1036139D4504B02A.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/2/M7/0LNJCTNLHJQGEOQZJZ68OD.uasset'
+[2025.09.26-19.31.49:068][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/D/J5/FGQ9OKB2E177Y5W5EZGRQT
+[2025.09.26-19.31.49:068][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/FGQ9OKB2E177Y5W5EZGRQTFA0F115340CBA45165EE1D9749C96D80.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/D/J5/FGQ9OKB2E177Y5W5EZGRQT.uasset'
+[2025.09.26-19.31.49:093][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/8/R3/V11BORYOP0J0IOQ8JQ1D56
+[2025.09.26-19.31.49:093][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/V11BORYOP0J0IOQ8JQ1D5668F924F844B3792865FCEA952EFC689D.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/8/R3/V11BORYOP0J0IOQ8JQ1D56.uasset'
+[2025.09.26-19.31.49:119][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/0/P4/URPC8KEFGBANRUZOHP0JS4
+[2025.09.26-19.31.49:119][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/URPC8KEFGBANRUZOHP0JS4D1EBCF7A461A1BA7596D82A797426899.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/0/P4/URPC8KEFGBANRUZOHP0JS4.uasset'
+[2025.09.26-19.31.49:145][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/6/8B/X4SXAK8BBP8I5BWI30ZGD2
+[2025.09.26-19.31.49:145][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/X4SXAK8BBP8I5BWI30ZGD2B63519BD4B4F490499BA8A8CBD1BE14A.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/6/8B/X4SXAK8BBP8I5BWI30ZGD2.uasset'
+[2025.09.26-19.31.49:169][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/C/JT/6IF8J8YHWZDA8TRJPDEVDL
+[2025.09.26-19.31.49:169][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/6IF8J8YHWZDA8TRJPDEVDL0749F90E4410E4A32CFB3994235EB2B0.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/C/JT/6IF8J8YHWZDA8TRJPDEVDL.uasset'
+[2025.09.26-19.31.49:197][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/5/2T/MQ5DC7HW38JXL1YILO5L24
+[2025.09.26-19.31.49:197][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/MQ5DC7HW38JXL1YILO5L2482EB2E8C4BCE178AFAB7BF8D89B756CE.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/5/2T/MQ5DC7HW38JXL1YILO5L24.uasset'
+[2025.09.26-19.31.49:223][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/9/0D/ACTUMU10M9R4AB11SD8O58
+[2025.09.26-19.31.49:223][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/ACTUMU10M9R4AB11SD8O582A5F6F26463F80E6A3E37A85708A9476.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/9/0D/ACTUMU10M9R4AB11SD8O58.uasset'
+[2025.09.26-19.31.49:249][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/4/Y4/KU3XSGIXP5R7M8O351JNUF
+[2025.09.26-19.31.49:249][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/KU3XSGIXP5R7M8O351JNUF887CC7614FF1709DBC407E868767F539.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/4/Y4/KU3XSGIXP5R7M8O351JNUF.uasset'
+[2025.09.26-19.31.49:278][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/3/VG/KG9Q3E94M50P7YK37OEM0J
+[2025.09.26-19.31.49:278][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/KG9Q3E94M50P7YK37OEM0JFEA2EECC459FE903949E31B2C47144FE.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/3/VG/KG9Q3E94M50P7YK37OEM0J.uasset'
+[2025.09.26-19.31.49:303][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/2/5F/ZCWZ6H59GZEPN6LQ20M88Z
+[2025.09.26-19.31.49:303][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/ZCWZ6H59GZEPN6LQ20M88Z7EB286484403DA411B6979AE79E487A1.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/2/5F/ZCWZ6H59GZEPN6LQ20M88Z.uasset'
+[2025.09.26-19.31.49:328][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/E/E1/OBWACPL03FEF74R70Z50QG
+[2025.09.26-19.31.49:328][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/OBWACPL03FEF74R70Z50QG51C5599442A9E0B1C7A9A1967646D8A8.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/E/E1/OBWACPL03FEF74R70Z50QG.uasset'
+[2025.09.26-19.31.49:353][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/8/SF/RI30YA3VM6JYLZVMG49YED
+[2025.09.26-19.31.49:353][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/RI30YA3VM6JYLZVMG49YED80CEDA2D4A5F0FB288EF009F41A095D2.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/8/SF/RI30YA3VM6JYLZVMG49YED.uasset'
+[2025.09.26-19.31.49:377][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/2/SX/9M3M7E0LFJH5IPVEPJ27CA
+[2025.09.26-19.31.49:377][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/9M3M7E0LFJH5IPVEPJ27CA5B68EF3942F47FDBED651EB062BD44E5.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/2/SX/9M3M7E0LFJH5IPVEPJ27CA.uasset'
+[2025.09.26-19.31.49:403][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/6/KV/BZ5QLO1OVU5JX8YNUEGXK7
+[2025.09.26-19.31.49:403][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/BZ5QLO1OVU5JX8YNUEGXK72C7741AC42376C844F68C9B8621A349F.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/6/KV/BZ5QLO1OVU5JX8YNUEGXK7.uasset'
+[2025.09.26-19.31.49:429][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/C/R0/93C87HPU91UTWYR5SKPJ8A
+[2025.09.26-19.31.49:429][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/93C87HPU91UTWYR5SKPJ8A9F6384154728EAE057BF1F8D32182FD9.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/C/R0/93C87HPU91UTWYR5SKPJ8A.uasset'
+[2025.09.26-19.31.49:454][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/6/OM/R0N291MXUMZ25FZ1ZAQG7Q
+[2025.09.26-19.31.49:454][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/R0N291MXUMZ25FZ1ZAQG7Q915E347B41B5723D758C0098ACC87009.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/6/OM/R0N291MXUMZ25FZ1ZAQG7Q.uasset'
+[2025.09.26-19.31.49:480][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/2/30/PGDJC4LT89CV80TU5N6H6I
+[2025.09.26-19.31.49:480][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/PGDJC4LT89CV80TU5N6H6IB0E3BEA843EB533A0F18F7A915B9AFFE.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/2/30/PGDJC4LT89CV80TU5N6H6I.uasset'
+[2025.09.26-19.31.49:506][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/E/ZG/3CN7JZU7T0Q4C8YRZPKLXL
+[2025.09.26-19.31.49:506][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/3CN7JZU7T0Q4C8YRZPKLXL9E555E28433C1057614E658FE5FC2FE7.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/E/ZG/3CN7JZU7T0Q4C8YRZPKLXL.uasset'
+[2025.09.26-19.31.49:531][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/6/TC/NESCG762P9C27VRFQ6BJIG
+[2025.09.26-19.31.49:531][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/NESCG762P9C27VRFQ6BJIG4C7A14FB4E3D0DB5CE9DD7AB8A9D5307.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/6/TC/NESCG762P9C27VRFQ6BJIG.uasset'
+[2025.09.26-19.31.49:555][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/D/BD/5FU70QGXC00W5MLGD0VGVB
+[2025.09.26-19.31.49:555][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/5FU70QGXC00W5MLGD0VGVB7EEA70B2484013CE5BD744A9770541F9.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/D/BD/5FU70QGXC00W5MLGD0VGVB.uasset'
+[2025.09.26-19.31.49:580][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/C/0M/OGZWK79HC1YAX8GYDT4YPC
+[2025.09.26-19.31.49:581][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/OGZWK79HC1YAX8GYDT4YPC02BE3C414A235007AC1C02A6EBA4395A.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/C/0M/OGZWK79HC1YAX8GYDT4YPC.uasset'
+[2025.09.26-19.31.49:605][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/4/ID/4SXDKDGYUNZ5C85DQSFKF1
+[2025.09.26-19.31.49:605][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/4SXDKDGYUNZ5C85DQSFKF1A4929B9D4F9B14B20D35098F4922E9CC.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/4/ID/4SXDKDGYUNZ5C85DQSFKF1.uasset'
+[2025.09.26-19.31.49:631][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/A/Q9/LN9GKWLIBBOF4J4YSVIA9L
+[2025.09.26-19.31.49:632][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/LN9GKWLIBBOF4J4YSVIA9L2F9258BA4D8BCA5B8462DD891C5AE44C.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/A/Q9/LN9GKWLIBBOF4J4YSVIA9L.uasset'
+[2025.09.26-19.31.49:656][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/4/RO/VXE3ERGMF7IGQP1U3S1WDT
+[2025.09.26-19.31.49:658][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/VXE3ERGMF7IGQP1U3S1WDTE84EB8CD48DC1C843FF097934588F97C.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/4/RO/VXE3ERGMF7IGQP1U3S1WDT.uasset'
+[2025.09.26-19.31.49:687][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/E/2D/KTPXKFR2F519KHHUN4EXFC
+[2025.09.26-19.31.49:687][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/KTPXKFR2F519KHHUN4EXFCA4C7E17B4CE82C96EE837CA9053700E2.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/E/2D/KTPXKFR2F519KHHUN4EXFC.uasset'
+[2025.09.26-19.31.49:717][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/A/M4/3F2U67TWP78WEFJPC4CUBQ
+[2025.09.26-19.31.49:717][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/3F2U67TWP78WEFJPC4CUBQ957B5A584E5CABEC2AAF9595F89E92C7.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/A/M4/3F2U67TWP78WEFJPC4CUBQ.uasset'
+[2025.09.26-19.31.49:744][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/4/JI/2NJLO2VJ3WZTTGGWXNQUSX
+[2025.09.26-19.31.49:744][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/2NJLO2VJ3WZTTGGWXNQUSX9977B514428F74290AA9348D1B8D893B.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/4/JI/2NJLO2VJ3WZTTGGWXNQUSX.uasset'
+[2025.09.26-19.31.49:770][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/A/U3/Q3H1VCE5ETS1FEDFPIQS9G
+[2025.09.26-19.31.49:770][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/Q3H1VCE5ETS1FEDFPIQS9GFB53A45844D5AB286261908AA8C39FB5.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/A/U3/Q3H1VCE5ETS1FEDFPIQS9G.uasset'
+[2025.09.26-19.31.49:794][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/C/4M/NYUOO9T6LPC5SLI38CL6T2
+[2025.09.26-19.31.49:794][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/NYUOO9T6LPC5SLI38CL6T21790665F468FF44BD7EBEDB78FF7DBE3.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/C/4M/NYUOO9T6LPC5SLI38CL6T2.uasset'
+[2025.09.26-19.31.49:818][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/7/3J/QQ0SHQLEXYLZHQEVI4R7YR
+[2025.09.26-19.31.49:818][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/QQ0SHQLEXYLZHQEVI4R7YRC7E1D5A74C010408A328B8A48563EF29.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/7/3J/QQ0SHQLEXYLZHQEVI4R7YR.uasset'
+[2025.09.26-19.31.49:846][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/9/PW/C1DUCAX6P4NSI92N7QW8DZ
+[2025.09.26-19.31.49:846][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/C1DUCAX6P4NSI92N7QW8DZF78555AD4EC7A9D7976703B941DE8496.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/9/PW/C1DUCAX6P4NSI92N7QW8DZ.uasset'
+[2025.09.26-19.31.49:872][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/3/O8/EMRLLIIRFJ592FF75JWTBP
+[2025.09.26-19.31.49:872][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/EMRLLIIRFJ592FF75JWTBPA05ACA5D406B834471E7B7A876D570DA.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/3/O8/EMRLLIIRFJ592FF75JWTBP.uasset'
+[2025.09.26-19.31.49:896][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/2/DC/0Q52EVMSHQ9AEWYG5Y9V4L
+[2025.09.26-19.31.49:896][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/0Q52EVMSHQ9AEWYG5Y9V4L9E51FC6F4687FB68593D57B3AA6C4A8F.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/2/DC/0Q52EVMSHQ9AEWYG5Y9V4L.uasset'
+[2025.09.26-19.31.49:925][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/F/1V/W3MC8AE7LQ4C6E84DI9BTB
+[2025.09.26-19.31.49:925][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/W3MC8AE7LQ4C6E84DI9BTBF194913240E35DE3E58DA0A8CF34D300.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/F/1V/W3MC8AE7LQ4C6E84DI9BTB.uasset'
+[2025.09.26-19.31.49:950][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/8/OA/STIQVURW8N4IVFKP36KSC8
+[2025.09.26-19.31.49:950][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/STIQVURW8N4IVFKP36KSC8D6429AD34D44E4C2A6BC7782F60BFA30.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/8/OA/STIQVURW8N4IVFKP36KSC8.uasset'
+[2025.09.26-19.31.49:972][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/D/BW/2OG6N9ASWFYS25SRGR8XUW
+[2025.09.26-19.31.49:972][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/2OG6N9ASWFYS25SRGR8XUW93DF080D48381F7CF7B1919ADBF99463.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/D/BW/2OG6N9ASWFYS25SRGR8XUW.uasset'
+[2025.09.26-19.31.49:997][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/8/SE/RTBFX37MEDULUBQEHLOGEC
+[2025.09.26-19.31.49:997][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/RTBFX37MEDULUBQEHLOGEC27D0D0EC4B4D1C100F9C0E94FB40C012.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/8/SE/RTBFX37MEDULUBQEHLOGEC.uasset'
+[2025.09.26-19.31.50:023][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/4/ZA/UKKGNQ2Q6TTMJYQAE7XKZW
+[2025.09.26-19.31.50:023][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/UKKGNQ2Q6TTMJYQAE7XKZWA0B467284C5477F4CC3272AF141AA8BC.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/4/ZA/UKKGNQ2Q6TTMJYQAE7XKZW.uasset'
+[2025.09.26-19.31.50:048][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/2/40/P3QUEIG2UFB9YS2IU5HRL6
+[2025.09.26-19.31.50:048][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/P3QUEIG2UFB9YS2IU5HRL6346D842544C3A4DB8029229517CB18D6.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/2/40/P3QUEIG2UFB9YS2IU5HRL6.uasset'
+[2025.09.26-19.31.50:075][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/A/F8/ZRZ54GII5148WDENKRGC6U
+[2025.09.26-19.31.50:076][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/ZRZ54GII5148WDENKRGC6UBD23BE7F48B5925DA2D430BA74176BC0.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/A/F8/ZRZ54GII5148WDENKRGC6U.uasset'
+[2025.09.26-19.31.50:100][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/1/FM/E8RZBLJTY1NOHTG7Z91K2B
+[2025.09.26-19.31.50:100][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/E8RZBLJTY1NOHTG7Z91K2BE0A87AE942334D498AF0E78F26515B54.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/1/FM/E8RZBLJTY1NOHTG7Z91K2B.uasset'
+[2025.09.26-19.31.50:130][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/D/UC/7G5BXA8QR15OBDYRGNWBTT
+[2025.09.26-19.31.50:130][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/7G5BXA8QR15OBDYRGNWBTT59188F064DF3E8225B626FB803302B2C.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/D/UC/7G5BXA8QR15OBDYRGNWBTT.uasset'
+[2025.09.26-19.31.50:158][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/1/JC/J5H78X1Y5XU0J74XKYVZE5
+[2025.09.26-19.31.50:158][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/J5H78X1Y5XU0J74XKYVZE50F2916C448A60158B70C58B35B32E7D6.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/1/JC/J5H78X1Y5XU0J74XKYVZE5.uasset'
+[2025.09.26-19.31.50:182][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/1/AG/GJTV7E1KA69Q3CZZ9NLWFY
+[2025.09.26-19.31.50:183][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/GJTV7E1KA69Q3CZZ9NLWFY9A4E01AF4B3FB74DE6E199ADE89C3CAE.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/1/AG/GJTV7E1KA69Q3CZZ9NLWFY.uasset'
+[2025.09.26-19.31.50:206][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/C/GM/JNW2HKO18A3499PS17WBYI
+[2025.09.26-19.31.50:206][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/JNW2HKO18A3499PS17WBYI907138A54F556FA73A2E6D93CEAF388E.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/C/GM/JNW2HKO18A3499PS17WBYI.uasset'
+[2025.09.26-19.31.50:228][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/1/XM/P97PPGIBY6Z2GTNP9EYMA8
+[2025.09.26-19.31.50:228][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/P97PPGIBY6Z2GTNP9EYMA8238369BF40FBCAD5CA9FD6880B5BC79F.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/1/XM/P97PPGIBY6Z2GTNP9EYMA8.uasset'
+[2025.09.26-19.31.50:251][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/3/B4/HGCZNM5T7U8BXXJ4TM2QKV
+[2025.09.26-19.31.50:251][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/HGCZNM5T7U8BXXJ4TM2QKVF77EA1D541F91D21B0E5CCB5E5FB2B68.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/3/B4/HGCZNM5T7U8BXXJ4TM2QKV.uasset'
+[2025.09.26-19.31.50:273][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/D/P9/9OIOHDW0Y34BPRSVOD8JBU
+[2025.09.26-19.31.50:274][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/9OIOHDW0Y34BPRSVOD8JBU60BDED444DFA24DEB273739EE12201D9.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/D/P9/9OIOHDW0Y34BPRSVOD8JBU.uasset'
+[2025.09.26-19.31.50:289][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/A/SZ/ZWJDSEPFD7IUZUBM8BRMP2
+[2025.09.26-19.31.50:289][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/ZWJDSEPFD7IUZUBM8BRMP27BD1A95248E9A2EFD1F5D5B6C2268993.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/A/SZ/ZWJDSEPFD7IUZUBM8BRMP2.uasset'
+[2025.09.26-19.31.50:303][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/5/49/V923OS3K9VJW3OI061MJFD
+[2025.09.26-19.31.50:303][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/V923OS3K9VJW3OI061MJFDACCF76894A19FC650641FC979951E09E.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/5/49/V923OS3K9VJW3OI061MJFD.uasset'
+[2025.09.26-19.31.50:315][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/9/EG/CZ18R65XSFVCPWDKLYR1VA
+[2025.09.26-19.31.50:315][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/CZ18R65XSFVCPWDKLYR1VA75D3307E4D40868466AA0190D0931896.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/9/EG/CZ18R65XSFVCPWDKLYR1VA.uasset'
+[2025.09.26-19.31.50:327][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/3/QT/M9H3ZJ1THZM28KW4RNN7TM
+[2025.09.26-19.31.50:327][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/M9H3ZJ1THZM28KW4RNN7TME6191D284F0C375B6E4E8785A33AE345.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/3/QT/M9H3ZJ1THZM28KW4RNN7TM.uasset'
+[2025.09.26-19.31.50:343][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/7/NF/1LM55S3PS2KTQDS8X2S7BA
+[2025.09.26-19.31.50:343][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/1LM55S3PS2KTQDS8X2S7BA219255B145A83F24DC548B821B6C6F97.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/7/NF/1LM55S3PS2KTQDS8X2S7BA.uasset'
+[2025.09.26-19.31.50:359][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/3/KW/QIUL5RWF8GW00NE9ICDUIQ
+[2025.09.26-19.31.50:359][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/QIUL5RWF8GW00NE9ICDUIQ822EB9AA4C25B16F54687AB20126E084.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/3/KW/QIUL5RWF8GW00NE9ICDUIQ.uasset'
+[2025.09.26-19.31.50:372][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/6/UW/21O445FV74K4R13RW7NBD4
+[2025.09.26-19.31.50:372][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/21O445FV74K4R13RW7NBD433C7B6B148C4D712E779A48E46B56E86.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/6/UW/21O445FV74K4R13RW7NBD4.uasset'
+[2025.09.26-19.31.50:388][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/D/G7/LA3GTS5NXV29RUFDFDQFXT
+[2025.09.26-19.31.50:388][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/LA3GTS5NXV29RUFDFDQFXTCA7A07D147DF589606DCBB8AC88A82B2.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/D/G7/LA3GTS5NXV29RUFDFDQFXT.uasset'
+[2025.09.26-19.31.50:400][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/5/5F/KQKLVYGEPWXZKJYWK97J9P
+[2025.09.26-19.31.50:400][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/KQKLVYGEPWXZKJYWK97J9P5C76644A4589CC8E95DC48A5EABED93F.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/5/5F/KQKLVYGEPWXZKJYWK97J9P.uasset'
+[2025.09.26-19.31.50:412][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/6/SS/U8RL229GHMJLBIREB260XP
+[2025.09.26-19.31.50:412][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/U8RL229GHMJLBIREB260XPDF6E48444489209A0A900AB669E44070.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/6/SS/U8RL229GHMJLBIREB260XP.uasset'
+[2025.09.26-19.31.50:427][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/5/NF/WS044AKOSREPEAD18QIX0P
+[2025.09.26-19.31.50:427][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/WS044AKOSREPEAD18QIX0PAC2E87144FF33E4218F5A59923B0D761.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/5/NF/WS044AKOSREPEAD18QIX0P.uasset'
+[2025.09.26-19.31.50:440][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/9/7I/8Z4MIRD67GOVKGF7HRVUWO
+[2025.09.26-19.31.50:440][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/8Z4MIRD67GOVKGF7HRVUWO2ADC402D44357410CB0F29B46730CFEA.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/9/7I/8Z4MIRD67GOVKGF7HRVUWO.uasset'
+[2025.09.26-19.31.50:452][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/8/D7/TKG3HKVSZBHTW426CSVP22
+[2025.09.26-19.31.50:453][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/TKG3HKVSZBHTW426CSVP22ACB555B5428E2174218960B96F7724D2.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/8/D7/TKG3HKVSZBHTW426CSVP22.uasset'
+[2025.09.26-19.31.50:465][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/1/FH/ZJUNI2CKUAFC7JGMO2MMOM
+[2025.09.26-19.31.50:465][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/ZJUNI2CKUAFC7JGMO2MMOM7CD090CC461E8D521D4F7FAAC91391F6.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/1/FH/ZJUNI2CKUAFC7JGMO2MMOM.uasset'
+[2025.09.26-19.31.50:479][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/E/A7/FIURU9AGUYCNESVRDJF5QM
+[2025.09.26-19.31.50:479][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/FIURU9AGUYCNESVRDJF5QM66F4C1FF4B82DC817A33DBAE6FC64D9E.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/E/A7/FIURU9AGUYCNESVRDJF5QM.uasset'
+[2025.09.26-19.31.50:493][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/1/2V/S5G0G8GLCPE2J21E9Y6X3J
+[2025.09.26-19.31.50:493][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/S5G0G8GLCPE2J21E9Y6X3J65A1FF0A4D36130E6F4673A9B6A47B68.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/1/2V/S5G0G8GLCPE2J21E9Y6X3J.uasset'
+[2025.09.26-19.31.50:506][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/A/27/W931FWZQLMUMX858VQ63DS
+[2025.09.26-19.31.50:507][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/W931FWZQLMUMX858VQ63DS99CF45964F282D67C9CB79B94382B162.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/A/27/W931FWZQLMUMX858VQ63DS.uasset'
+[2025.09.26-19.31.50:522][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/6/HR/OT1XEE0I4I475ILSGDOWT2
+[2025.09.26-19.31.50:522][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/OT1XEE0I4I475ILSGDOWT29A7BC93249BADEBB84301FB6C0F2C822.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/6/HR/OT1XEE0I4I475ILSGDOWT2.uasset'
+[2025.09.26-19.31.50:535][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/2/E1/E4SEF0CIZ0BM42VMRNP2RC
+[2025.09.26-19.31.50:535][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/E4SEF0CIZ0BM42VMRNP2RCDF079F0B4CA5C05DF4CDB88D6E7E8250.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/2/E1/E4SEF0CIZ0BM42VMRNP2RC.uasset'
+[2025.09.26-19.31.50:548][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/1/JH/BCPB4OIIKWXSSI3DGWKB8L
+[2025.09.26-19.31.50:548][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/BCPB4OIIKWXSSI3DGWKB8L5A66B4D540EC211AF15EFCA821FDB363.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/1/JH/BCPB4OIIKWXSSI3DGWKB8L.uasset'
+[2025.09.26-19.31.50:563][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/8/2C/0EZVB9YKE7OLJMB12LCROD
+[2025.09.26-19.31.50:563][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/0EZVB9YKE7OLJMB12LCROD62777DD548901CA7F29966994F1340F6.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/8/2C/0EZVB9YKE7OLJMB12LCROD.uasset'
+[2025.09.26-19.31.50:576][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/E/YW/3XGCV6T643SOUDY8RPGEJ6
+[2025.09.26-19.31.50:576][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/3XGCV6T643SOUDY8RPGEJ65A643D884E99E54046D3C7849F64ED92.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/E/YW/3XGCV6T643SOUDY8RPGEJ6.uasset'
+[2025.09.26-19.31.50:590][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/7/60/UJ7W6MXC91R06XU81PE7VP
+[2025.09.26-19.31.50:590][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/UJ7W6MXC91R06XU81PE7VP64FDDDA84B3D5C3167F76CAF9EFE256C.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/7/60/UJ7W6MXC91R06XU81PE7VP.uasset'
+[2025.09.26-19.31.50:604][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/1/9E/W9A19FD9MYOGXRN9Q3JQJ0
+[2025.09.26-19.31.50:604][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/W9A19FD9MYOGXRN9Q3JQJ0A18520CA44279C60B294C78F1861290F.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/1/9E/W9A19FD9MYOGXRN9Q3JQJ0.uasset'
+[2025.09.26-19.31.50:618][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/5/OM/8S4XC3RVN1XBYR0VUAFF1V
+[2025.09.26-19.31.50:618][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/8S4XC3RVN1XBYR0VUAFF1V8AB7D7F7475C85E6C1A7C7A316F796F4.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/5/OM/8S4XC3RVN1XBYR0VUAFF1V.uasset'
+[2025.09.26-19.31.50:631][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/8/UJ/9I6B4B87T3LD8AF1EDJ5CY
+[2025.09.26-19.31.50:631][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/9I6B4B87T3LD8AF1EDJ5CY191F517D452C72EE9F105B9FD74DB383.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/8/UJ/9I6B4B87T3LD8AF1EDJ5CY.uasset'
+[2025.09.26-19.31.50:644][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/2/AD/2R534YDUGNV0YYGBR5Z8ES
+[2025.09.26-19.31.50:644][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/2R534YDUGNV0YYGBR5Z8ES35A8AF1741B64FF93AF10494EF39E291.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/2/AD/2R534YDUGNV0YYGBR5Z8ES.uasset'
+[2025.09.26-19.31.50:656][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/3/QQ/TL89Z6SFF6VUCAXHRYYE4B
+[2025.09.26-19.31.50:656][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/TL89Z6SFF6VUCAXHRYYE4B86B7805A4B165EEE0CC2E9A25CAF6A4C.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/3/QQ/TL89Z6SFF6VUCAXHRYYE4B.uasset'
+[2025.09.26-19.31.50:670][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/2/EL/BZMFGQEV608DLILQ96C7BC
+[2025.09.26-19.31.50:670][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/BZMFGQEV608DLILQ96C7BC3859E8224D54B8F53D642083F9A1C34B.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/2/EL/BZMFGQEV608DLILQ96C7BC.uasset'
+[2025.09.26-19.31.50:682][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/9/28/LKNNDMWMJ4ATFAOQRG79N1
+[2025.09.26-19.31.50:682][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/LKNNDMWMJ4ATFAOQRG79N1347E64C544E4A96DACB74396B6B0FB50.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/9/28/LKNNDMWMJ4ATFAOQRG79N1.uasset'
+[2025.09.26-19.31.50:695][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/A/N4/USAVH98Y6ELL8D9MANC92W
+[2025.09.26-19.31.50:695][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/USAVH98Y6ELL8D9MANC92W34589C87415569E0BA6DC595460CCFAD.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/A/N4/USAVH98Y6ELL8D9MANC92W.uasset'
+[2025.09.26-19.31.50:707][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/C/QX/Q8B1HXK0BJM4BKJ2I0CC4K
+[2025.09.26-19.31.50:707][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/Q8B1HXK0BJM4BKJ2I0CC4K2CA8C0CD46A9729DB38AA1B92C07E5C5.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/C/QX/Q8B1HXK0BJM4BKJ2I0CC4K.uasset'
+[2025.09.26-19.31.50:719][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/4/W9/TZXCM1FJGF9MGAAH778DLF
+[2025.09.26-19.31.50:719][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/TZXCM1FJGF9MGAAH778DLF195F546A4564B943DC473DA5FAEEB0BA.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/4/W9/TZXCM1FJGF9MGAAH778DLF.uasset'
+[2025.09.26-19.31.50:734][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/3/9F/M7GZXLCNRT3IB5E9R48DY2
+[2025.09.26-19.31.50:734][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/M7GZXLCNRT3IB5E9R48DY27849F90649CF8A7011AA05B0FCF29E95.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/3/9F/M7GZXLCNRT3IB5E9R48DY2.uasset'
+[2025.09.26-19.31.50:747][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/9/YB/N68SX0LPRF832X8MH48MDQ
+[2025.09.26-19.31.50:747][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/N68SX0LPRF832X8MH48MDQF12DDBC64CDC202C17E290AA1E3CC537.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/9/YB/N68SX0LPRF832X8MH48MDQ.uasset'
+[2025.09.26-19.31.50:760][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/8/BA/ZTFL7ZZELKJGWQOF8LKE40
+[2025.09.26-19.31.50:760][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/ZTFL7ZZELKJGWQOF8LKE402EF39D1943C61DCC94A5489FF14EF699.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/8/BA/ZTFL7ZZELKJGWQOF8LKE40.uasset'
+[2025.09.26-19.31.50:774][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/C/QI/B16AKIKT747KX2NG9EET06
+[2025.09.26-19.31.50:774][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/B16AKIKT747KX2NG9EET06B07BB54F4C07D9AA46A92DB2D54759EB.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/C/QI/B16AKIKT747KX2NG9EET06.uasset'
+[2025.09.26-19.31.50:786][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/B/U6/4YPI9PDFFOOT5SMLBTOLET
+[2025.09.26-19.31.50:788][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/4YPI9PDFFOOT5SMLBTOLET243CE608407FA2B1EA83AB8E5F56E66C.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/B/U6/4YPI9PDFFOOT5SMLBTOLET.uasset'
+[2025.09.26-19.31.50:800][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/0/LZ/WKK1RBWA887NOIGU5P7T1T
+[2025.09.26-19.31.50:800][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/WKK1RBWA887NOIGU5P7T1TC87BA0E847878BC68D72E09022CFC7AD.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/0/LZ/WKK1RBWA887NOIGU5P7T1T.uasset'
+[2025.09.26-19.31.50:813][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/6/MR/DHCVZ50DPO3ALCTM83HEYA
+[2025.09.26-19.31.50:813][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/DHCVZ50DPO3ALCTM83HEYAF5C5984E4518975D6523BEA7EA67C2EF.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/6/MR/DHCVZ50DPO3ALCTM83HEYA.uasset'
+[2025.09.26-19.31.50:826][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/E/JS/F1U71W226HJYDAPWCQEF8B
+[2025.09.26-19.31.50:826][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/F1U71W226HJYDAPWCQEF8B0D3BC62B47124571EBE04ABDC253278D.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/E/JS/F1U71W226HJYDAPWCQEF8B.uasset'
+[2025.09.26-19.31.50:839][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/7/A0/2HFNKDYUYU8V58LCANCJKV
+[2025.09.26-19.31.50:839][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/2HFNKDYUYU8V58LCANCJKV762C4BF24CEFFFB557FB6982A553C7E1.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/7/A0/2HFNKDYUYU8V58LCANCJKV.uasset'
+[2025.09.26-19.31.50:853][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/1/JW/N3I9SMJBK97UJBRM8PDKVT
+[2025.09.26-19.31.50:853][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/N3I9SMJBK97UJBRM8PDKVT41E66CAC493E06B799FDF693291D72B7.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/1/JW/N3I9SMJBK97UJBRM8PDKVT.uasset'
+[2025.09.26-19.31.50:866][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/A/KS/O71QC6CDOBGVY3EX39TRGK
+[2025.09.26-19.31.50:866][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/O71QC6CDOBGVY3EX39TRGK9D7B18BB419DDB55CB55D4AA00CFD38E.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/A/KS/O71QC6CDOBGVY3EX39TRGK.uasset'
+[2025.09.26-19.31.50:881][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/6/5B/MICKAQ8PMC1J8I9ZETDOGC
+[2025.09.26-19.31.50:881][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/MICKAQ8PMC1J8I9ZETDOGCD7C5E1C44CA12D2D92344FAD37B117F8.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/6/5B/MICKAQ8PMC1J8I9ZETDOGC.uasset'
+[2025.09.26-19.31.50:893][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/4/VN/GAFFO8F5WGHXJE8MGHP6KN
+[2025.09.26-19.31.50:893][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/GAFFO8F5WGHXJE8MGHP6KN9E59C48E4DDCAEDE3C6695B2008370A5.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/4/VN/GAFFO8F5WGHXJE8MGHP6KN.uasset'
+[2025.09.26-19.31.50:905][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/C/9D/DB37H1VTWXRKHTKIJQK01L
+[2025.09.26-19.31.50:905][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/DB37H1VTWXRKHTKIJQK01LA67B2ED2416094BC17C1BFA56CE211DF.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/C/9D/DB37H1VTWXRKHTKIJQK01L.uasset'
+[2025.09.26-19.31.50:919][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/9/VY/7WV22G2LIE219VK7D6WOBK
+[2025.09.26-19.31.50:919][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/7WV22G2LIE219VK7D6WOBKF3F641C34813592DA1D25E975B26A229.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/9/VY/7WV22G2LIE219VK7D6WOBK.uasset'
+[2025.09.26-19.31.50:932][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/1/X9/XQUAADSLG6TKJ28QQNQHTJ
+[2025.09.26-19.31.50:934][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/XQUAADSLG6TKJ28QQNQHTJ89767EF04042E1E46C7108A00A19B571.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/1/X9/XQUAADSLG6TKJ28QQNQHTJ.uasset'
+[2025.09.26-19.31.50:947][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/E/3F/UBKWK7N6AICTEFLXNMYSSX
+[2025.09.26-19.31.50:947][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/UBKWK7N6AICTEFLXNMYSSXB4D3264D43DA18CC88AD21B7191F4B7D.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/E/3F/UBKWK7N6AICTEFLXNMYSSX.uasset'
+[2025.09.26-19.31.50:960][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/D/UE/GYZLQYDZAI1K44M4CM5NMP
+[2025.09.26-19.31.50:960][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/GYZLQYDZAI1K44M4CM5NMP173AA4834403CD346001FAA123870266.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/D/UE/GYZLQYDZAI1K44M4CM5NMP.uasset'
+[2025.09.26-19.31.50:974][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/D/EN/QED4Y58R7UREFTFY9RVRIQ
+[2025.09.26-19.31.50:974][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/QED4Y58R7UREFTFY9RVRIQ1E594B0047C8D101D291168C856526BE.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/D/EN/QED4Y58R7UREFTFY9RVRIQ.uasset'
+[2025.09.26-19.31.50:990][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/0/WP/J9IYT0YDE3R6BY5R336GPM
+[2025.09.26-19.31.50:990][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/J9IYT0YDE3R6BY5R336GPMD1BA0A3A46E3B83CC0BA1982BDF0F0F4.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/0/WP/J9IYT0YDE3R6BY5R336GPM.uasset'
+[2025.09.26-19.31.51:003][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/1/Z7/XL77QU2X8BQDCP7OWC7BSO
+[2025.09.26-19.31.51:003][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/XL77QU2X8BQDCP7OWC7BSO3B1242E8435F0319BFDCF985D7DBAC3D.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/1/Z7/XL77QU2X8BQDCP7OWC7BSO.uasset'
+[2025.09.26-19.31.51:017][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/5/RN/LCMLWQRFGTBALSBMD1T33X
+[2025.09.26-19.31.51:017][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/LCMLWQRFGTBALSBMD1T33XB0FED28A4606ABD8DEA4348504148A74.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/5/RN/LCMLWQRFGTBALSBMD1T33X.uasset'
+[2025.09.26-19.31.51:029][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/E/5N/CIKULWBMD1OI6G0I48EK2E
+[2025.09.26-19.31.51:029][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/CIKULWBMD1OI6G0I48EK2EAE8D047446CB21343C7498B962EB6685.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/E/5N/CIKULWBMD1OI6G0I48EK2E.uasset'
+[2025.09.26-19.31.51:042][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/C/TR/ZYUVQV5OXO8YSD4CZ5PUVT
+[2025.09.26-19.31.51:042][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/ZYUVQV5OXO8YSD4CZ5PUVT0558B4454AD55AED4556848DA19617E6.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/C/TR/ZYUVQV5OXO8YSD4CZ5PUVT.uasset'
+[2025.09.26-19.31.51:056][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/D/DF/FAGZ1NU3SAJJQIU2ZOOPZW
+[2025.09.26-19.31.51:056][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/FAGZ1NU3SAJJQIU2ZOOPZWF9C05E39459355577B7AD7B965C5737D.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/D/DF/FAGZ1NU3SAJJQIU2ZOOPZW.uasset'
+[2025.09.26-19.31.51:069][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/4/1N/VJSNMK6AMMF0LC7SFL553T
+[2025.09.26-19.31.51:069][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/VJSNMK6AMMF0LC7SFL553T4795AB91467696C517617B9C485922FC.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/4/1N/VJSNMK6AMMF0LC7SFL553T.uasset'
+[2025.09.26-19.31.51:082][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/B/O3/1E8JROADMYZ84RZ2PCS24R
+[2025.09.26-19.31.51:083][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/1E8JROADMYZ84RZ2PCS24R9019FDDC44E6590DCF5A04AC35075855.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/B/O3/1E8JROADMYZ84RZ2PCS24R.uasset'
+[2025.09.26-19.31.51:097][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/4/T8/C5Q3XS8WBXEJNVKHSEHGXA
+[2025.09.26-19.31.51:097][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/C5Q3XS8WBXEJNVKHSEHGXA353AEA174876C46E0BF20C809D1C2E63.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/4/T8/C5Q3XS8WBXEJNVKHSEHGXA.uasset'
+[2025.09.26-19.31.51:110][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/6/PT/KAQEWRH2VSK246CA6L5XA5
+[2025.09.26-19.31.51:110][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/KAQEWRH2VSK246CA6L5XA59B1094184FE7DC145E9553A37A66788B.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/6/PT/KAQEWRH2VSK246CA6L5XA5.uasset'
+[2025.09.26-19.31.51:124][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/A/5M/DF8NO1TVR2J7EYILA0L2OZ
+[2025.09.26-19.31.51:124][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/DF8NO1TVR2J7EYILA0L2OZ9BBEFBD5469832B8B3D61A91943B441C.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/A/5M/DF8NO1TVR2J7EYILA0L2OZ.uasset'
+[2025.09.26-19.31.51:135][273]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Base/9/PZ/DBRV9RF5KOB14MD0XUWJQS
+[2025.09.26-19.31.51:135][273]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/DBRV9RF5KOB14MD0XUWJQSB1B4B62243439DAD551C718A0246D626.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/9/PZ/DBRV9RF5KOB14MD0XUWJQS.uasset'
+[2025.09.26-19.31.51:140][273]LogFileHelpers: InternalPromptForCheckoutAndSave took 11.3 sec
+[2025.09.26-19.31.51:172][273]LogFileHelpers: Saving map 'Base' took 11.523
+[2025.09.26-19.31.51:172][273]Cmd: MAP LOAD FILE="../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Base.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.26-19.31.51:194][273]LogWorld: UWorld::CleanupWorld for Base, bSessionEnded=true, bCleanupResources=true
+[2025.09.26-19.31.51:194][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-19.31.51:194][273]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Base.Base
+[2025.09.26-19.31.51:232][273]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.26-19.31.51:249][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.09.26-19.31.51:250][273]LogStreaming: Display: FlushAsyncLoading(671): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.26-19.31.51:254][273]LogAudio: Display: Audio Device (ID: 1) registered with world 'Base'.
+[2025.09.26-19.31.51:254][273]LogChaosDD: Creating Chaos Debug Draw Scene for world Base
+[2025.09.26-19.31.51:258][273]LogWorldPartition: ULevel::OnLevelLoaded(Base)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.09.26-19.31.51:258][273]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.26-19.31.51:258][273]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Base.Base, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.26-19.31.51:438][273]LogWorldPartition: Display: WorldPartition initialize took 180.780 ms (total: 604.531 ms)
+[2025.09.26-19.31.51:585][273]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.26-19.31.51:617][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.09.26-19.31.51:622][273]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.26-19.31.51:624][273]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.531ms to complete.
+[2025.09.26-19.31.51:717][273]LogContentValidation: Display: Starting to validate 146 assets
+[2025.09.26-19.31.51:718][273]LogContentValidation: Enabled validators:
+[2025.09.26-19.31.51:718][273]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.26-19.31.51:719][273]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.26-19.31.51:719][273]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.26-19.31.51:719][273]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.26-19.31.51:719][273]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.26-19.31.51:719][273]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.26-19.31.51:720][273]AssetCheck: /Game/Base Validating asset
+[2025.09.26-19.31.51:720][273]AssetCheck: /Game/Base_HLOD0_Instancing Validating asset
+[2025.09.26-19.31.52:053][273]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.26-19.31.52:077][274]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
