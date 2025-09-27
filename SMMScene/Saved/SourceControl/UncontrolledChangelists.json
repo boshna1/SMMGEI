@@ -17,7 +17,6 @@
 				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/C/A6/7CSDIYU1Z00RLQUP3OU0VK.uasset",
 				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/E/DJ/EVNZXB5S3EPU7AC59FASFL.uasset",
 				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/B/N1/Y34CLOUKSQ6OQLKGEG492S.uasset",
-				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/5/SS/T3SRT1U6ZSY896MPXB45AQ.uasset",
 				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/2/3T/SEP04E4KUPG363TEB6I871.uasset",
 				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/D/17/H7WO6HW3CMG1X3I6QU3NFJ.uasset",
 				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/B/UC/YNUKB7SZ45T9Z070204NIH.uasset",
@@ -150,7 +149,29 @@
 				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/6/PT/KAQEWRH2VSK246CA6L5XA5.uasset",
 				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/A/5M/DF8NO1TVR2J7EYILA0L2OZ.uasset",
 				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/9/PZ/DBRV9RF5KOB14MD0XUWJQS.uasset",
-				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Base.umap"
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Base.umap",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/BP_Player.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/B/NH/BIWIF1KQXT0WPDCN11LO1J.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/BP_Base.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/Actions/IA_Move.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/Actions/IA_Place.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/Actions/IA_Select.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/Actions/IMC_Player.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/BP_Sphere.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/BP_Cylinder.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/BP_Cone.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/BP_Cube.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/BPI_Command.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/9/HI/PGGM6IKFEPB6UIZVVJ77MT.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/BP_PlaceCommand.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/BP_InvokeCommand.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/A/7L/5ZT6FG8Q5213SJNPXKMUO4.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/0/6U/85TIX9RXEZSQYQ63YV76RG.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/E/BH/K8P739Q5HLWTQWOYDH69VH.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/3/9A/SOT4G7L0WNYYG0X7UHQHXD.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/9/QA/PL6INWAXSJI3SG3HIQ5RFZ.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/5/SS/T3SRT1U6ZSY896MPXB45AQ.uasset",
+				"C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/__ExternalActors__/Base/6/YE/ESBSGO8C53WUMPR0CNDYCO.uasset"
 			]
 		}
 	]
