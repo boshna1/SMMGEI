@@ -9153,3 +9153,238 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.09.27-18.05.45:168][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2025.09.27-18.05.45:250][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
 [2025.09.27-18.05.45:382][ 52]LogPSOHitching: Encountered 1150 PSO creation hitches so far (484 graphics, 666 compute). 0 of them were precached.
+[2025.09.27-18.07.09:525][304]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6606.968262
+[2025.09.27-18.07.10:524][307]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-18.07.10:524][307]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6607.635254, Update Interval: 311.611084
+[2025.09.27-18.12.52:942][334]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6950.381348
+[2025.09.27-18.12.53:941][337]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-18.12.53:941][337]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6951.046387, Update Interval: 305.377960
+[2025.09.27-18.18.34:772][359]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7292.201172
+[2025.09.27-18.18.35:772][362]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-18.18.35:772][362]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7292.867676, Update Interval: 311.312592
+[2025.09.27-18.18.58:796][432]LogDerivedDataCache: C:/Users/joshu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.27-18.24.27:845][418]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7645.260254
+[2025.09.27-18.24.28:846][421]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-18.24.28:846][421]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7645.926758, Update Interval: 358.848236
+[2025.09.27-18.30.00:904][596]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2025.09.27-18.30.00:907][596]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2025.09.27-18.30.37:114][675]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-18.30.37:144][675]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2025.09.27-18.30.37:144][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2025.09.27-18.30.37:144][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2025.09.27-18.30.37:166][675]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2025.09.27-18.30.37:166][675]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/BP_PlayerDC708E9C439932F70B2EABB35ED1E40E.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/BP_Player.uasset'
+[2025.09.27-18.30.37:178][675]LogFileHelpers: InternalPromptForCheckoutAndSave took 64.434 ms (total: 4.11 sec)
+[2025.09.27-18.30.37:213][675]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-18.30.37:213][675]LogContentValidation: Enabled validators:
+[2025.09.27-18.30.37:213][675]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-18.30.37:213][675]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-18.30.37:213][675]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-18.30.37:213][675]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-18.30.37:213][675]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-18.30.37:213][675]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-18.30.37:214][675]AssetCheck: /Game/Blueprints/BP_Player Validating asset
+[2025.09.27-18.30.51:818][496]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-18.30.51:848][496]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2025.09.27-18.30.51:848][496]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2025.09.27-18.30.51:848][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2025.09.27-18.30.51:881][496]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2025.09.27-18.30.51:881][496]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/BP_Player9B24886140296995A348E3BC698B7DDA.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/BP_Player.uasset'
+[2025.09.27-18.30.51:892][496]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.060 ms (total: 4.18 sec)
+[2025.09.27-18.30.51:937][496]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-18.30.51:937][496]LogContentValidation: Enabled validators:
+[2025.09.27-18.30.51:937][496]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-18.30.51:937][496]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-18.30.51:937][496]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-18.30.51:937][496]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-18.30.51:937][496]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-18.30.51:937][496]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-18.30.51:937][496]AssetCheck: /Game/Blueprints/BP_Player Validating asset
+[2025.09.27-18.31.06:915][920]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8044.338379
+[2025.09.27-18.31.07:032][927]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-18.31.07:032][927]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8044.438965, Update Interval: 336.431763
+[2025.09.27-18.37.37:695][605]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8435.116211
+[2025.09.27-18.37.38:694][608]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-18.37.38:694][608]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8435.782227, Update Interval: 307.262177
+[2025.09.27-18.42.36:375][579]LogSlate: Window 'BP_Player' being destroyed
+[2025.09.27-18.42.36:382][579]LogSlate: Window 'BP_Player' being destroyed
+[2025.09.27-18.42.36:386][579]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2025.09.27-18.42.36:386][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.27-18.42.36:469][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.09.27-18.42.47:933][737]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.27-18.43.27:997][515]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.27-18.43.28:026][515]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.09.27-18.43.28:037][515]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.09.27-18.43.28:076][516]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.09.27-18.43.33:814][861]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_BaseInstance
+[2025.09.27-18.43.33:837][861]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.09.27-18.43.35:073][930]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_BaseInstance.BP_BaseInstance
+[2025.09.27-18.43.35:073][930]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_20
+[2025.09.27-18.43.47:844][296]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8805.235352
+[2025.09.27-18.43.48:847][299]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-18.43.48:847][299]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8805.904297, Update Interval: 319.444550
+[2025.09.27-18.47.15:827][160]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-18.47.15:865][160]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_BaseInstance] ([2] browsable assets)...
+[2025.09.27-18.47.15:865][160]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_BaseInstance]
+[2025.09.27-18.47.15:865][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_BaseInstance" FILE="../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/BP_BaseInstance.uasset" SILENT=true
+[2025.09.27-18.47.15:874][160]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_BaseInstance
+[2025.09.27-18.47.15:874][160]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/BP_BaseInstanceD4DB1681490A05DFC1F6669667362E00.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/BP_BaseInstance.uasset'
+[2025.09.27-18.47.15:891][160]LogFileHelpers: InternalPromptForCheckoutAndSave took 62.612 ms (total: 4.25 sec)
+[2025.09.27-18.47.15:926][160]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-18.47.15:926][160]LogContentValidation: Enabled validators:
+[2025.09.27-18.47.15:926][160]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-18.47.15:926][160]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-18.47.15:926][160]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-18.47.15:926][160]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-18.47.15:926][160]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-18.47.15:926][160]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-18.47.15:926][160]AssetCheck: /Game/Blueprints/BP_BaseInstance Validating asset
+[2025.09.27-18.47.15:952][160]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.27-18.48.45:697][489]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-18.48.45:745][489]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_BaseInstance] ([2] browsable assets)...
+[2025.09.27-18.48.45:745][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_BaseInstance]
+[2025.09.27-18.48.45:745][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_BaseInstance" FILE="../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/BP_BaseInstance.uasset" SILENT=true
+[2025.09.27-18.48.45:757][489]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_BaseInstance
+[2025.09.27-18.48.45:757][489]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/BP_BaseInstance8B8750CE464E54A79C9F57BF865A070D.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/BP_BaseInstance.uasset'
+[2025.09.27-18.48.45:769][489]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.091 ms (total: 4.32 sec)
+[2025.09.27-18.48.45:805][489]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-18.48.45:805][489]LogContentValidation: Enabled validators:
+[2025.09.27-18.48.45:805][489]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-18.48.45:805][489]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-18.48.45:805][489]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-18.48.45:805][489]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-18.48.45:805][489]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-18.48.45:805][489]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-18.48.45:805][489]AssetCheck: /Game/Blueprints/BP_BaseInstance Validating asset
+[2025.09.27-18.48.46:579][530]LogPSOHitching: Encountered 1200 PSO creation hitches so far (514 graphics, 686 compute). 0 of them were precached.
+[2025.09.27-18.48.50:122][717]LogContentBrowser: Deferred new asset file creation: NewFunctionLibrary
+[2025.09.27-18.48.50:133][717]LogContentBrowser: Creating deferred item: NewFunctionLibrary
+[2025.09.27-18.48.50:149][718]LogContentBrowser: Renaming the item being created (Deferred Item: NewFunctionLibrary).
+[2025.09.27-18.48.51:670][810]LogContentBrowser: Attempting asset rename: NewFunctionLibrary -> NewFunctionLibrary
+[2025.09.27-18.48.51:675][810]LogContentBrowser: End creating deferred item NewFunctionLibrary
+[2025.09.27-18.48.59:511][ 42]LogContentBrowser: Attempting asset rename: NewFunctionLibrary -> FileHelper
+[2025.09.27-18.48.59:676][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-18.48.59:676][ 42]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/FileHelper] ([2] browsable assets)...
+[2025.09.27-18.48.59:676][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/FileHelper]
+[2025.09.27-18.48.59:676][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FileHelper" FILE="../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/FileHelper.uasset" SILENT=true
+[2025.09.27-18.48.59:684][ 42]LogSavePackage: Moving output files for package: /Game/Blueprints/FileHelper
+[2025.09.27-18.48.59:684][ 42]LogSavePackage: Moving '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/FileHelper89BA466947B841F6B750D5B71B46A89A.tmp' to '../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Content/Blueprints/FileHelper.uasset'
+[2025.09.27-18.48.59:689][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave took 13.562 ms (total: 4.33 sec)
+[2025.09.27-18.48.59:765][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.09.27-18.48.59:796][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.09.27-18.48.59:821][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.09.27-18.48.59:869][ 42]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-18.48.59:869][ 42]LogContentValidation: Enabled validators:
+[2025.09.27-18.48.59:869][ 42]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-18.48.59:869][ 42]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-18.48.59:869][ 42]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-18.48.59:869][ 42]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-18.48.59:869][ 42]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-18.48.59:869][ 42]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-18.48.59:869][ 42]AssetCheck: /Game/Blueprints/FileHelper Validating asset
+[2025.09.27-18.48.59:911][ 42]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.27-18.49.00:428][ 72]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/FileHelper.FileHelper
+[2025.09.27-18.49.00:428][ 72]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
+[2025.09.27-18.49.39:813][699]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9157.164062
+[2025.09.27-18.49.40:813][702]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-18.49.40:813][702]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9157.831055, Update Interval: 334.714203
+[2025.09.27-18.51.28:116][279]LogSlate: Window 'FileHelper' being destroyed
+[2025.09.27-18.51.28:125][279]LogSlate: Window 'FileHelper' being destroyed
+[2025.09.27-18.51.28:127][279]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2025.09.27-18.51.28:127][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.27-18.51.28:151][279]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2025.09.27-18.51.28:151][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.27-18.51.28:210][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.09.27-18.51.30:509][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.09.27-18.51.30:652][412]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2025.09.27-18.51.30:662][412]LogSlate: Took 0.008309 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2025.09.27-18.51.31:469][412]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.27-18.51.31:553][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.09.27-18.51.31:583][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.09.27-18.51.31:613][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.09.27-18.54.45:845][285]LogPSOHitching: Encountered 1250 PSO creation hitches so far (540 graphics, 710 compute). 0 of them were precached.
+[2025.09.27-18.54.49:527][489]LogProjectBrowser: Looking for projects...
+[2025.09.27-18.54.49:527][489]LogProjectBrowser: Found Engine Installation "5.6"(C:/Program Files/Epic Games/UE_5.6)
+[2025.09.27-18.54.49:527][489]LogDesktopPlatform: Enumerating Projects From Engine Ver: 5.6
+[2025.09.27-18.54.49:527][489]LogDesktopPlatform: Looking for directories to scan from : C:/Users/joshu/AppData/Local/UnrealEngine/5.6/Saved/Config/WindowsEditor
+[2025.09.27-18.54.49:529][489]LogDesktopPlatform: Searching for previously created project directories...
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found directory: "C:/Users/joshu/Documents/Unreal Projects/GEI"
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found directory: "C:/Users/joshu/Documents/Unreal Projects/GDW5T1"
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found directory: "C:/Users/joshu/Documents/Unreal Projects"
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found directory: "C:/Users/joshu/Documents/Unreal Projects/GEIAI"
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found directory: "C:/Users/joshu/Documents/Unreal Projects/GEIL1"
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found directory: "C:/Users/joshu/Documents/Unreal Projects/AFTC"
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found directory: "C:/Users/joshu/Documents/Unreal Projects/SMMGEI"
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found project "(ProjectName="C:/Users/joshu/Documents/Unreal Projects/GDWT1FPS/GDWT1FPS.uproject",LastOpenTime=2025.09.16-19.36.47)" in recently opened files
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found project "(ProjectName="C:/Users/joshu/Documents/Unreal Projects/GDW5T1/GDW5T1.uproject",LastOpenTime=2025.09.16-19.37.32)" in recently opened files
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found project "(ProjectName="C:/Users/joshu/Documents/Unreal Projects/GDW5T1/GDW5T1/GDW5T1.uproject",LastOpenTime=2025.09.16-19.42.11)" in recently opened files
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found project "(ProjectName="C:/Users/joshu/Documents/Unreal Projects/GEIAI/AdventureIsland/AdventureIsland.uproject",LastOpenTime=2025.09.18-21.53.20)" in recently opened files
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found project "(ProjectName="C:/Users/joshu/Documents/Unreal Projects/GEIL1/GameEngineLab1/GameEngineLab1.uproject",LastOpenTime=2025.09.19-19.42.56)" in recently opened files
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found project "(ProjectName="C:/Users/joshu/Documents/Unreal Projects/GEIL1-1.0.0/GEIL1-1.0.0/GameEngineLab1/GameEngineLab1.uproject",LastOpenTime=2025.09.19-21.15.33)" in recently opened files
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found project "(ProjectName="C:/Users/joshu/Documents/Unreal Projects/GDW5Solo/GDW5Solo.uproject",LastOpenTime=2025.09.24-00.24.09)" in recently opened files
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found project "(ProjectName="C:/Users/joshu/Documents/Unreal Projects/AFTC/AnythingForTheClip/AnythingForTheClip.uproject",LastOpenTime=2025.09.26-02.49.11)" in recently opened files
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found project "(ProjectName="C:/Users/joshu/Documents/Unreal Projects/GDW5T1/NewProject/NewProject.uproject",LastOpenTime=2025.09.26-19.49.53)" in recently opened files
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found project "(ProjectName="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/SMMScene.uproject",LastOpenTime=2025.09.27-16.17.03)" in recently opened files
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found project "C:/Users/joshu/Documents/Unreal Projects/GDW5Solo/GDW5Solo.uproject" in previously created project directory
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found project "C:/Users/joshu/Documents/Unreal Projects/GEI/GEI.uproject" in previously created project directory
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found project "C:/Users/joshu/Documents/Unreal Projects/GEIBlank/GEIBlank.uproject" in previously created project directory
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found project "C:/Users/joshu/Documents/Unreal Projects/GEI/GEIBlankProject/GEIBlankProject.uproject" in previously created project directory
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found project "C:/Users/joshu/Documents/Unreal Projects/GDW5T1/GDW5T1/GDW5T1.uproject" in previously created project directory
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found project "C:/Users/joshu/Documents/Unreal Projects/GDW5T1/NewProject/NewProject.uproject" in previously created project directory
+[2025.09.27-18.54.49:530][489]LogDesktopPlatform: Found project "C:/Users/joshu/Documents/Unreal Projects/GEIAI/AdventureIsland/AdventureIsland.uproject" in previously created project directory
+[2025.09.27-18.54.49:531][489]LogDesktopPlatform: Found project "C:/Users/joshu/Documents/Unreal Projects/GEIL1/GameEngineLab1/GameEngineLab1.uproject" in previously created project directory
+[2025.09.27-18.54.49:531][489]LogDesktopPlatform: Found project "C:/Users/joshu/Documents/Unreal Projects/AFTC/AnythingForTheClip/AnythingForTheClip.uproject" in previously created project directory
+[2025.09.27-18.54.49:531][489]LogDesktopPlatform: Found project "C:/Users/joshu/Documents/Unreal Projects/SMMGEI/SMMScene/SMMScene.uproject" in previously created project directory
+[2025.09.27-18.54.49:531][489]LogDesktopPlatform: Searching for projects in .uprojectdirs
+[2025.09.27-18.54.49:531][489]LogProjectBrowser: Enumerating Launcher Sample Projects...
+[2025.09.27-18.54.49:837][489]ImportText (Variants): Missing closing parenthesis: (Name="TwinStick",LocalizedDisplayNames=((Language="en",Text="Twin Stick"),(Language="ja",Text="ツインスティック"),(Language="ko",Text="트윈 스틱"),(Language="zh-Hans",Text="双摇杆游戏模板")),LocalizedDescriptions=((Language="en",Text="A twin stick shooter game with infinitely spawning enemies."),(Language="ja",Text="敵が無限にスポーンするツイン スティック シューティング ゲーム"),(Language="ko",Text="무한히 생성되는 적을 상대하는 트윈 스틱 슈팅 게임입니다."),(Language="zh-Hans",Text="一款双摇杆设计游戏，具有无限刷新的敌人。")),SharedContentPacks=((DetailLevels=(Standard),MountName="Variant_TwinStick"),(MountName="Input",DetailLevels=("High")))
+[2025.09.27-18.54.49:837][489]ImportText (Variants): Missing closing parenthesis: (Name="All",LocalizedDisplayNames=((Language="en",Text="All"),(Language="ja",Text="All (全員)"),(Language="ko",Text="모두"),(Language="zh-Hans",Text="全部")),LocalizedDescriptions=((Language="en",Text="Includes all Top Down variants."),(Language="ja",Text="すべてのトップダウン バリアントが含まれています"),(Language="ko",Text="모든 탑 뷰 베리언트를 포함합니다."),(Language="zh-Hans",Text="包含全部第三人称模板变体。")),SharedContentPacks=((DetailLevels=(Standard),MountName="Variant_TwinStick"),(DetailLevels=(Standard),MountName="Variant_Strategy"),(MountName="Input",DetailLevels=("High")))
+[2025.09.27-18.54.52:191][620]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Source/TP_Blank.Target.cs': Renaming to 'Source//MyProject.Target' as it matched file rename ('TP_Blank'->'MyProject')
+[2025.09.27-18.54.52:201][620]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Source/TP_BlankEditor.Target.cs': Renaming to 'Source//MyProjectEditor.Target' as it matched file rename ('TP_Blank'->'MyProject')
+[2025.09.27-18.54.52:214][620]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Media/TP_Blank.png': Skipping as it is in an ignored folder 'Media'
+[2025.09.27-18.54.52:219][620]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Media/TP_Blank_Preview.png': Skipping as it is in an ignored folder 'Media'
+[2025.09.27-18.54.52:219][620]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Source/TP_Blank/TP_Blank.Build.cs': Moving to 'Source/MyProject/' as it matched folder rename ('Source/TP_Blank'->'Source/MyProject')
+[2025.09.27-18.54.52:219][620]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Source/TP_Blank/TP_Blank.Build.cs': Renaming to 'Source/MyProject//MyProject.Build' as it matched file rename ('TP_Blank'->'MyProject')
+[2025.09.27-18.54.52:226][620]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Source/TP_Blank/TP_Blank.cpp': Moving to 'Source/MyProject/' as it matched folder rename ('Source/TP_Blank'->'Source/MyProject')
+[2025.09.27-18.54.52:226][620]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Source/TP_Blank/TP_Blank.cpp': Renaming to 'Source/MyProject//MyProject' as it matched file rename ('TP_Blank'->'MyProject')
+[2025.09.27-18.54.52:230][620]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Source/TP_Blank/TP_Blank.h': Moving to 'Source/MyProject/' as it matched folder rename ('Source/TP_Blank'->'Source/MyProject')
+[2025.09.27-18.54.52:230][620]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Source/TP_Blank/TP_Blank.h': Renaming to 'Source/MyProject//MyProject' as it matched file rename ('TP_Blank'->'MyProject')
+[2025.09.27-18.54.52:365][620]Running C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/MyProject/MyProject.uproject" -game -rocket -progress
+[2025.09.27-18.54.52:487][620]Using bundled DotNet SDK version: 8.0.300 win-x64
+[2025.09.27-18.54.52:487][620]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/joshu/Documents/Unreal Projects/SMMGEI/MyProject/MyProject.uproject" -game -rocket -progress
+[2025.09.27-18.54.53:190][620]Log file: C:\Users\joshu\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.09.27-18.54.53:894][620]
+[2025.09.27-18.54.53:894][620]Generating VisualStudio2022 project files:
+[2025.09.27-18.54.53:894][620]Discovering modules, targets and source code for project...
+[2025.09.27-18.54.53:894][620]Visual Studio C++ 2022 installation not found - ignoring preferred project file format.
+[2025.09.27-18.54.53:994][620]Adding projects for all targets...
+[2025.09.27-18.55.02:355][620]Adding projects for all targets took 8.37s
+[2025.09.27-18.55.02:355][620]Visual Studio 2022 x64 must be installed in order to build this target.
+[2025.09.27-18.55.02:355][620]
+[2025.09.27-18.55.02:355][620]Result: Failed (OtherCompilationError)
+[2025.09.27-18.55.02:355][620]Total execution time: 9.72 seconds
+[2025.09.27-18.55.05:658][620]LogSlate: Window 'Create Project' being destroyed
+[2025.09.27-18.55.10:793][697]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Source/TP_Blank.Target.cs': Renaming to 'Source//MyProject.Target' as it matched file rename ('TP_Blank'->'MyProject')
+[2025.09.27-18.55.10:793][697]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Source/TP_BlankEditor.Target.cs': Renaming to 'Source//MyProjectEditor.Target' as it matched file rename ('TP_Blank'->'MyProject')
+[2025.09.27-18.55.10:793][697]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Media/TP_Blank.png': Skipping as it is in an ignored folder 'Media'
+[2025.09.27-18.55.10:793][697]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Media/TP_Blank_Preview.png': Skipping as it is in an ignored folder 'Media'
+[2025.09.27-18.55.10:793][697]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Source/TP_Blank/TP_Blank.Build.cs': Moving to 'Source/MyProject/' as it matched folder rename ('Source/TP_Blank'->'Source/MyProject')
+[2025.09.27-18.55.10:793][697]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Source/TP_Blank/TP_Blank.Build.cs': Renaming to 'Source/MyProject//MyProject.Build' as it matched file rename ('TP_Blank'->'MyProject')
+[2025.09.27-18.55.10:794][697]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Source/TP_Blank/TP_Blank.cpp': Moving to 'Source/MyProject/' as it matched folder rename ('Source/TP_Blank'->'Source/MyProject')
+[2025.09.27-18.55.10:794][697]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Source/TP_Blank/TP_Blank.cpp': Renaming to 'Source/MyProject//MyProject' as it matched file rename ('TP_Blank'->'MyProject')
+[2025.09.27-18.55.10:794][697]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Source/TP_Blank/TP_Blank.h': Moving to 'Source/MyProject/' as it matched folder rename ('Source/TP_Blank'->'Source/MyProject')
+[2025.09.27-18.55.10:794][697]LogGameProjectGeneration: Verbose: 'C:/Program Files/Epic Games/UE_5.6/Templates/TP_Blank/Source/TP_Blank/TP_Blank.h': Renaming to 'Source/MyProject//MyProject' as it matched file rename ('TP_Blank'->'MyProject')
+[2025.09.27-18.55.10:865][697]Running C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/joshu/Documents/Unreal Projects/MyProject/MyProject.uproject" -game -rocket -progress
+[2025.09.27-18.55.10:972][697]Using bundled DotNet SDK version: 8.0.300 win-x64
+[2025.09.27-18.55.10:972][697]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/joshu/Documents/Unreal Projects/MyProject/MyProject.uproject" -game -rocket -progress
+[2025.09.27-18.55.11:274][697]Log file: C:\Users\joshu\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.09.27-18.55.11:575][697]
+[2025.09.27-18.55.11:575][697]Generating VisualStudio2022 project files:
+[2025.09.27-18.55.11:575][697]Discovering modules, targets and source code for project...
+[2025.09.27-18.55.11:575][697]Visual Studio C++ 2022 installation not found - ignoring preferred project file format.
+[2025.09.27-18.55.11:575][697]Adding projects for all targets...
+[2025.09.27-18.55.11:776][697]Adding projects for all targets took 0.17s
+[2025.09.27-18.55.11:776][697]Visual Studio 2022 x64 must be installed in order to build this target.
+[2025.09.27-18.55.11:776][697]
+[2025.09.27-18.55.11:776][697]Result: Failed (OtherCompilationError)
+[2025.09.27-18.55.11:776][697]Total execution time: 0.76 seconds

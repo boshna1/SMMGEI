@@ -1,0 +1,2 @@
+PlayerSpeed=200
+PlaceCooldown=0.7
